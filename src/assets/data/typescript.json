@@ -1,0 +1,13 @@
+[
+    {
+      "question": "What is OOP?",
+      "answer": "Object-Oriented Programming",
+      "topic": "OOP"
+    },
+    {
+      "question": "What are the four principles of OOP?",
+      "answer": "Encapsulation, Abstraction, Inheritance, Polymorphism",
+      "topic": "OOP"
+    }
+  ]
+  

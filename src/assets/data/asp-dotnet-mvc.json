@@ -1,0 +1,232 @@
+[
+  {
+    "question": "What is ASP.NET MVC?",
+    "answer": "ASP.NET MVC is a framework for building web applications using the Model-View-Controller (MVC) design pattern.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What are the main components of ASP.NET MVC?",
+    "answer": "The main components are Model, View, and Controller.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the role of the Model in ASP.NET MVC?",
+    "answer": "The Model represents the application's data and business logic.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the role of the View in ASP.NET MVC?",
+    "answer": "The View is responsible for displaying the user interface and presenting data to the user.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the role of the Controller in ASP.NET MVC?",
+    "answer": "The Controller handles user input and interactions, working with the Model to process the data and selecting the appropriate View for the response.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How does routing work in ASP.NET MVC?",
+    "answer": "Routing is the mechanism that maps URL requests to specific controller actions. Routes are defined in the RouteConfig class.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is a ViewModel in ASP.NET MVC?",
+    "answer": "A ViewModel is a model specifically created for the View to encapsulate the data and logic needed for rendering.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is Razor in ASP.NET MVC?",
+    "answer": "Razor is a markup syntax used for embedding server-based code into web pages. It allows mixing of HTML and C# code.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How do you handle form submissions in ASP.NET MVC?",
+    "answer": "Form submissions are handled by creating action methods in the controller that correspond to the form's action attribute.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the difference between TempData, ViewData, and ViewBag?",
+    "answer": "TempData is used to pass data between actions, ViewData and ViewBag are used to pass data from the controller to the view. TempData persists for the duration of a single request, ViewData uses a dictionary, and ViewBag uses dynamic properties.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What are partial views in ASP.NET MVC?",
+    "answer": "Partial views are reusable view components that can be rendered within other views, useful for creating modular and maintainable code.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How do you implement authentication and authorization in ASP.NET MVC?",
+    "answer": "Authentication and authorization can be implemented using ASP.NET Identity, membership providers, or custom solutions, often involving filters and attributes.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is an action filter in ASP.NET MVC?",
+    "answer": "An action filter is an attribute that you can apply to a controller or action method to perform logic either before or after the action method executes.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How can you handle exceptions in ASP.NET MVC?",
+    "answer": "Exceptions can be handled using try-catch blocks, custom error pages, and by using the HandleError attribute or custom exception filters.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is bundling and minification in ASP.NET MVC?",
+    "answer": "Bundling and minification are techniques used to improve web performance by reducing the number and size of HTTP requests for CSS and JavaScript files.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How do you perform validation in ASP.NET MVC?",
+    "answer": "Validation can be performed using data annotations, model validation, and custom validation logic, typically in the Model or ViewModel classes.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is scaffolding in ASP.NET MVC?",
+    "answer": "Scaffolding is a technique used to generate code for CRUD operations automatically based on the model structure.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What are HTML helpers in ASP.NET MVC?",
+    "answer": "HTML helpers are methods that generate HTML markup for rendering views. They provide an easy way to create forms, links, and other HTML elements.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is asynchronous programming in ASP.NET MVC?",
+    "answer": "Asynchronous programming allows methods to run asynchronously, improving application performance and responsiveness. It is implemented using async and await keywords.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the Global.asax file used for in ASP.NET MVC?",
+    "answer": "The Global.asax file, also known as the ASP.NET application file, is used to handle application-level events such as Application_Start, Application_End, and Session_Start.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the purpose of the Web.config file in ASP.NET MVC?",
+    "answer": "The Web.config file is used to configure application settings, connection strings, authentication settings, and other configuration data.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How do you use AJAX in ASP.NET MVC?",
+    "answer": "AJAX can be used in ASP.NET MVC by using jQuery AJAX methods, Ajax.ActionLink, and Ajax.BeginForm to make asynchronous HTTP requests.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous actions in ASP.NET MVC?",
+    "answer": "Synchronous actions execute sequentially and block the thread until the action completes, while asynchronous actions do not block the thread, allowing the server to handle other requests concurrently.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What are tag helpers in ASP.NET MVC?",
+    "answer": "Tag helpers are server-side components that help you create and render HTML elements in Razor views. They provide an easy way to generate dynamic HTML content.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How do you handle file uploads in ASP.NET MVC?",
+    "answer": "File uploads can be handled using the HttpPostedFileBase class and form encoding type set to 'multipart/form-data'.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the purpose of the RouteConfig class in ASP.NET MVC?",
+    "answer": "The RouteConfig class is used to define the routing configuration for the application, specifying how URL patterns map to controller actions.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is dependency injection in ASP.NET MVC?",
+    "answer": "Dependency injection is a design pattern that allows the application to inject dependencies into classes, rather than the classes creating the dependencies themselves.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How do you implement a custom filter in ASP.NET MVC?",
+    "answer": "A custom filter can be implemented by creating a class that inherits from one of the filter base classes (ActionFilterAttribute, AuthorizeAttribute, etc.) and overriding the appropriate methods.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What are strongly-typed views in ASP.NET MVC?",
+    "answer": "Strongly-typed views are views that are bound to a specific model type, allowing for compile-time checking and IntelliSense support.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is a child action in ASP.NET MVC?",
+    "answer": "A child action is a method marked with the [ChildActionOnly] attribute, which can only be invoked as part of a parent view, typically rendered using Html.Action or Html.RenderAction.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is an area in ASP.NET MVC?",
+    "answer": "An area is a way to partition an ASP.NET MVC application into smaller functional groupings, each with its own set of controllers, views, and models, allowing for better organization.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How do you handle session state in ASP.NET MVC?",
+    "answer": "Session state is handled using the Session property of the Controller class, allowing you to store and retrieve user-specific data across multiple requests.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the role of the ControllerFactory in ASP.NET MVC?",
+    "answer": "The ControllerFactory is responsible for creating controller instances. You can create a custom ControllerFactory to control the instantiation process.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What are display templates and editor templates in ASP.NET MVC?",
+    "answer": "Display templates and editor templates are views used to customize the display and editing of model properties. They are located in the Views/Shared/DisplayTemplates and Views/Shared/EditorTemplates folders.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is model binding in ASP.NET MVC?",
+    "answer": "Model binding is the process of creating model objects from the data sent by the client in an HTTP request, typically used to populate action method parameters.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is Razor syntax in ASP.NET MVC?",
+    "answer": "Razor syntax is a markup syntax that allows you to embed server-based code (C# or VB) into web pages using a compact, easy-to-read format.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How do you perform unit testing in ASP.NET MVC?",
+    "answer": "Unit testing in ASP.NET MVC can be performed using testing frameworks like MSTest, NUnit, or xUnit, focusing on testing controllers, actions, and other components in isolation.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the use of the AntiForgeryToken in ASP.NET MVC?",
+    "answer": "The AntiForgeryToken is used to prevent cross-site request forgery (CSRF) attacks by generating a hidden form field with a token that must match the token stored in the user's session.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the purpose of the [HttpPost] attribute in ASP.NET MVC?",
+    "answer": "The [HttpPost] attribute specifies that an action method should be invoked in response to HTTP POST requests.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is convention-based routing in ASP.NET MVC?",
+    "answer": "Convention-based routing defines URL patterns and maps them to controller actions based on naming conventions. This is configured in the RouteConfig class.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What are Unobtrusive JavaScript and jQuery Validation in ASP.NET MVC?",
+    "answer": "Unobtrusive JavaScript is a way to keep JavaScript code separate from HTML markup. jQuery Validation is a plugin that provides client-side validation for forms using unobtrusive JavaScript.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "How do you return JSON data from a controller action in ASP.NET MVC?",
+    "answer": "JSON data can be returned from a controller action by using the JsonResult type and the Json method.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the role of the Application_Start method in Global.asax?",
+    "answer": "The Application_Start method is called when the application starts, and it is used to configure application-level settings such as routing, filters, and bundles.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What are Html.ActionLink and Url.Action in ASP.NET MVC?",
+    "answer": "Html.ActionLink creates an HTML anchor element (link) to a specified action method, while Url.Action generates a URL to a specified action method.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is View Engine in ASP.NET MVC?",
+    "answer": "A View Engine is responsible for rendering the HTML from the view files. The default view engine in ASP.NET MVC is Razor.",
+    "topic": "ASP.NET MVC"
+  },
+  {
+    "question": "What is the difference between ViewResult and ActionResult in ASP.NET MVC?",
+    "answer": "ActionResult is a base class for various types of action results, including ViewResult, which specifically renders a view.",
+    "topic": "ASP.NET MVC"
+  }
+]

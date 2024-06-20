@@ -1,0 +1,227 @@
+[
+  {
+    "question": "What is OOP?",
+    "answer": "Object-Oriented Programming",
+    "topic": "OOP"
+  },
+  {
+    "question": "What are the four basic principles of OOP?",
+    "answer": "Encapsulation, Inheritance, Polymorphism, Abstraction",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a class in C#?",
+    "answer": "A blueprint for creating objects, defining their properties and behaviors",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is an object in C#?",
+    "answer": "An instance of a class",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is inheritance?",
+    "answer": "The mechanism by which one class can inherit properties and methods from another class",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is encapsulation?",
+    "answer": "The concept of wrapping data and methods into a single unit (class) and restricting access to the internals of that class",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is polymorphism?",
+    "answer": "The ability of different classes to be treated as instances of the same class through inheritance",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is abstraction?",
+    "answer": "The concept of hiding the complex implementation details and showing only the essential features of an object",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a constructor in C#?",
+    "answer": "A special method used to initialize objects of a class",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is method overloading?",
+    "answer": "Defining multiple methods with the same name but different parameters",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is method overriding?",
+    "answer": "Providing a new implementation of a method in a derived class that is already defined in its base class",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a virtual method in C#?",
+    "answer": "A method that can be overridden in a derived class",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is an abstract class?",
+    "answer": "A class that cannot be instantiated and can contain abstract methods",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is an interface in C#?",
+    "answer": "A contract that defines a set of methods and properties but does not provide implementation",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the difference between an abstract class and an interface?",
+    "answer": "Abstract classes can have implementations, interfaces cannot. A class can implement multiple interfaces but inherit only one class.",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a sealed class in C#?",
+    "answer": "A class that cannot be inherited",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a delegate in C#?",
+    "answer": "A type that represents references to methods with a particular parameter list and return type",
+    "topic": "OOP"
+  },
+  {
+    "question": "What are events in C#?",
+    "answer": "A way for a class to provide notifications when something of interest happens",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the difference between a delegate and an event?",
+    "answer": "Delegates are function pointers, events are a way to provide a subscription model for delegates",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the 'this' keyword in C#?",
+    "answer": "A reference to the current instance of the class",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the 'base' keyword in C#?",
+    "answer": "A reference to the base class of the current instance",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the difference between 'new' and 'override' keywords?",
+    "answer": "'new' hides a method of the base class, 'override' overrides a virtual method",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a property in C#?",
+    "answer": "A member that provides a flexible mechanism to read, write, or compute the value of a private field",
+    "topic": "OOP"
+  },
+  {
+    "question": "What are access modifiers in C#?",
+    "answer": "Keywords that set the accessibility of classes, methods, and other members",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a static class in C#?",
+    "answer": "A class that cannot be instantiated and can contain only static members",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the difference between a field and a property?",
+    "answer": "Fields are variables of a class, properties provide controlled access to the fields",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is an indexer in C#?",
+    "answer": "A member that allows objects to be indexed like arrays",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the difference between 'const' and 'readonly'?",
+    "answer": "'const' is a compile-time constant, 'readonly' is a runtime constant",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a namespace in C#?",
+    "answer": "A way to organize classes and other types into a hierarchical structure",
+    "topic": "NamespaceOOP"
+  },
+  {
+    "question": "What is the purpose of the 'using' statement in C#?",
+    "answer": "To include namespaces or to ensure the disposal of resources",
+    "topic": "'OOP"
+  },
+  {
+    "question": "What is the 'is' keyword in C#?",
+    "answer": "A keyword used to check if an object is compatible with a given type",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the 'as' keyword in C#?",
+    "answer": "A keyword used to perform safe type casting",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a partial class?",
+    "answer": "A class definition that can be split across multiple files",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a nested class in C#?",
+    "answer": "A class defined within another class",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the 'ref' keyword in C#?",
+    "answer": "A keyword used to pass arguments by reference",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the 'out' keyword in C#?",
+    "answer": "A keyword used to pass arguments by reference and return multiple values",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is the difference between 'ref' and 'out'?",
+    "answer": "'ref' requires that the variable be initialized before being passed, 'out' does not",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a lambda expression in C#?",
+    "answer": "An anonymous function that can contain expressions and statements",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a generic in C#?",
+    "answer": "A feature that allows you to define classes, methods, and data structures with a placeholder for the data type",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a singleton pattern?",
+    "answer": "A design pattern that restricts the instantiation of a class to one object",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is method hiding in C#?",
+    "answer": "When a derived class defines a method with the same name as a method in the base class, hiding the base class method",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is operator overloading?",
+    "answer": "Defining how an operator works with user-defined types",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a destructor in C#?",
+    "answer": "A method called when an object is being garbage collected to perform cleanup",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is an extension method?",
+    "answer": "A static method that allows you to add new methods to existing types without modifying them",
+    "topic": "OOP"
+  },
+  {
+    "question": "What is a collection in C#?",
+    "answer": "A data structure that can hold multiple items",
+    "topic": "OOP"
+  }
+]
