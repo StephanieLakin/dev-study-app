@@ -18,8 +18,8 @@ export class FlashcardService {
     switch (topic) {
       case 'OOP':
         return 'oop';
-      case '.Net Core MVC':
-        return 'dotnet-core-mvc';
+      case 'ASP .NET MVC':
+        return 'asp-dotnet-mvc';
       case '.Net Core Web API':
         return 'dotnet-core-web-api';
       case 'Angular':
@@ -28,14 +28,12 @@ export class FlashcardService {
         return 'typescript';
       case 'CSS':
         return 'css';
+      case 'Javascript':
+        return 'javascript';
+      case 'C#':
+        return 'c-sharp';
       default:
         throw new Error('Unknown topic');
     }
   }
-
-//   addFlashcard(flashcard: Flashcard): void {
-//     this.flashcards.push(flashcard);
-//   }
-
-  // Additional methods for update and delete
 }

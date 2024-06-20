@@ -11,7 +11,7 @@ export class FlashcardComponent implements OnInit {
   topics: string[] = [
     'OOP',
     'ASP .NET MVC',
-    '.NET Core Web API',
+    '.Net Core Web API',
     'Angular',
     'TypeScript',
     'CSS',
