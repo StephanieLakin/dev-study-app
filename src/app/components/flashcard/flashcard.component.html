@@ -1,20 +1,44 @@
-<div class="flashcard-container">
+<div class="container">
+  <div class="image-wrapper">
+    <img
+      src="../../../assets/images/eskieScreen.jpg"
+      alt="eskie"
+      class="image"
+    />
+    <h1 class="title"><a (click)="home()">YukiDev</a></h1>
+  </div>
+  <div class="flashcard-container">
     <button class="toggleButton" (click)="toggleMode()">Toggle Mode</button>
     <div class="topic-selector">
       <label for="topic">Select Topic: </label>
       <select id="topic" (change)="selectTopic($event)">
-        <option *ngFor="let topic of topics" [value]="topic">{{ topic }}</option>
+        <option *ngFor="let topic of topics" [value]="topic">
+          {{ topic }}
+        </option>
       </select>
     </div>
-  
+
     <div class="flashcard" [ngClass]="colorMode" *ngIf="flashcards.length">
       <h2>{{ currentFlashcard.question }}</h2>
       <p>{{ currentFlashcard.answer }}</p>
       <p><strong>Topic:</strong> {{ currentFlashcard.topic }}</p>
     </div>
-    <button class="selectionBtn" (click)="previousFlashcard()" [disabled]="currentIndex === 0">Previous</button>
-    <button class="selectionBtn" (click)="nextFlashcard()" [disabled]="currentIndex === flashcards.length - 1">Next</button>
+    <div class="btnContainer">
+      <button
+        class="selectionBtn"
+        (click)="previousFlashcard()"
+        [disabled]="currentIndex === 0"
+      >
+        Previous
+      </button>
+      <button
+        class="selectionBtn"
+        (click)="nextFlashcard()"
+        [disabled]="currentIndex === flashcards.length - 1"
+      >
+        Next
+      </button>
+      <button class="selectionBtn" (click)="refreshList()">Refresh</button>
+    </div>
   </div>
-  
-  
-  
+</div>

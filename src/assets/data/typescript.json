@@ -1,13 +1,248 @@
 [
     {
-      "question": "What is OOP?",
-      "answer": "Object-Oriented Programming",
-      "topic": "OOP"
+      "question": "What is TypeScript?",
+      "answer": "TypeScript is a superset of JavaScript that adds static types.",
+      "topic": "TypeScript"
     },
     {
-      "question": "What are the four principles of OOP?",
-      "answer": "Encapsulation, Abstraction, Inheritance, Polymorphism",
-      "topic": "OOP"
+      "question": "What are the benefits of using TypeScript?",
+      "answer": "TypeScript provides optional static typing, type inference, type erasure, interfaces, enumerated types, generics, namespaces, tuples, async/await, and more.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you install TypeScript?",
+      "answer": "You can install TypeScript using npm with the command 'npm install -g typescript'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is a .ts file?",
+      "answer": "A .ts file is a TypeScript file that contains TypeScript code.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you compile a TypeScript file?",
+      "answer": "You can compile a TypeScript file using the 'tsc' command followed by the filename, e.g., 'tsc file.ts'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'tsconfig.json' file?",
+      "answer": "'tsconfig.json' is a configuration file for TypeScript that specifies the root files and the compiler options required to compile the project.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What are types in TypeScript?",
+      "answer": "Types in TypeScript define the shape of data, including what properties an object can have and what types those properties can be.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What are interfaces in TypeScript?",
+      "answer": "Interfaces in TypeScript are used to define the structure of an object, specifying the properties and their types.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the difference between 'interface' and 'type' in TypeScript?",
+      "answer": "'interface' is used to describe the shape of an object, while 'type' can describe any TypeScript type, including primitives, unions, and intersections.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What are enums in TypeScript?",
+      "answer": "Enums in TypeScript are a way to define a set of named constants, which can be either numeric or string-based.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What are generics in TypeScript?",
+      "answer": "Generics allow you to create reusable components that can work with a variety of types, providing type safety for those components.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you define a generic function in TypeScript?",
+      "answer": "A generic function is defined using angle brackets, e.g., 'function identity<T>(arg: T): T { return arg; }'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is type inference in TypeScript?",
+      "answer": "Type inference refers to TypeScript's ability to automatically deduce the type of a variable based on its value.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is type assertion in TypeScript?",
+      "answer": "Type assertion is a way to override TypeScript's inferred type, allowing you to specify a different type, using the 'as' keyword or angle brackets.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you create a type alias in TypeScript?",
+      "answer": "A type alias is created using the 'type' keyword, e.g., 'type Name = string;'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What are tuples in TypeScript?",
+      "answer": "Tuples are a type of array that allows you to specify the types of elements at specific positions in the array.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the difference between 'unknown' and 'any' types in TypeScript?",
+      "answer": "'any' disables type checking, while 'unknown' requires you to perform type checks before performing operations on the value.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'never' type in TypeScript?",
+      "answer": "'never' represents the type of values that never occur, often used in functions that always throw an error or never return.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you declare a variable in TypeScript?",
+      "answer": "Variables in TypeScript are declared using 'let', 'const', or 'var' followed by the variable name and an optional type annotation.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What are the basic data types in TypeScript?",
+      "answer": "Basic data types in TypeScript include 'number', 'string', 'boolean', 'array', 'tuple', 'enum', 'unknown', 'any', 'void', 'null', and 'undefined'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you define a function in TypeScript?",
+      "answer": "A function is defined using the 'function' keyword followed by the function name, parameter list, and return type, e.g., 'function add(x: number, y: number): number { return x + y; }'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'void' type in TypeScript?",
+      "answer": "'void' is used to indicate that a function does not return a value.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you define an array in TypeScript?",
+      "answer": "An array is defined using the type followed by square brackets, e.g., 'let numbers: number[] = [1, 2, 3];'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is 'strict mode' in TypeScript?",
+      "answer": "'strict mode' enables strict type-checking options to ensure that TypeScript code is as type-safe as possible.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you enable 'strict mode' in a TypeScript project?",
+      "answer": "You enable 'strict mode' by setting 'strict': true in the 'tsconfig.json' file.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What are decorators in TypeScript?",
+      "answer": "Decorators are special declarations that can be attached to a class, method, accessor, property, or parameter to modify their behavior.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you create a class in TypeScript?",
+      "answer": "A class is created using the 'class' keyword followed by the class name and a body, e.g., 'class Person { name: string; constructor(name: string) { this.name = name; } }'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What are access modifiers in TypeScript?",
+      "answer": "Access modifiers in TypeScript are 'public', 'private', and 'protected', and they control the visibility of class members.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is a module in TypeScript?",
+      "answer": "A module in TypeScript is a file containing TypeScript code that can export and import other modules using 'export' and 'import' keywords.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you export a class from a module in TypeScript?",
+      "answer": "A class can be exported using the 'export' keyword, e.g., 'export class MyClass { }'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you import a class from a module in TypeScript?",
+      "answer": "A class can be imported using the 'import' keyword, e.g., 'import { MyClass } from './my-module';'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is type narrowing in TypeScript?",
+      "answer": "Type narrowing refers to using TypeScript's control flow analysis to reduce the type of a variable within a conditional block.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is a union type in TypeScript?",
+      "answer": "A union type allows a variable to be one of several types, e.g., 'let value: string | number;'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is an intersection type in TypeScript?",
+      "answer": "An intersection type combines multiple types into one, e.g., 'type A = { a: string }; type B = { b: number }; type C = A & B;'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'readonly' modifier in TypeScript?",
+      "answer": "'readonly' is a modifier that makes a property immutable after it has been initialized.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'Partial' utility type in TypeScript?",
+      "answer": "'Partial' constructs a type with all properties of Type set to optional.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'Pick' utility type in TypeScript?",
+      "answer": "'Pick' constructs a type by picking a set of properties from another type.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'Omit' utility type in TypeScript?",
+      "answer": "'Omit' constructs a type by picking all properties from a type and then removing some of them.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What are ambient declarations in TypeScript?",
+      "answer": "Ambient declarations are used to tell TypeScript about the types of variables, functions, and classes in existing code that is not written in TypeScript.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'declare' keyword used for in TypeScript?",
+      "answer": "The 'declare' keyword is used for ambient declarations to describe types of existing objects in external JavaScript code.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the difference between 'declare' and 'export' in TypeScript?",
+      "answer": "'declare' is used for ambient declarations, while 'export' is used to expose declarations from a module.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you handle asynchronous operations in TypeScript?",
+      "answer": "Asynchronous operations in TypeScript can be handled using Promises, async/await syntax, and the 'Promise' type.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'unknown' type in TypeScript?",
+      "answer": "'unknown' is a type-safe counterpart of 'any' that requires explicit type checks before operations are performed on it.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you define a constructor in a TypeScript class?",
+      "answer": "A constructor is defined using the 'constructor' keyword inside a class, e.g., 'constructor(private name: string) { }'.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'extends' keyword used for in TypeScript?",
+      "answer": "The 'extends' keyword is used to create a subclass that inherits properties and methods from a superclass.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is the 'implements' keyword used for in TypeScript?",
+      "answer": "The 'implements' keyword is used to implement an interface in a class, ensuring that the class adheres to the interface's structure.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What are mapped types in TypeScript?",
+      "answer": "Mapped types allow you to create new types by transforming existing ones using a mapping syntax.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "What is type compatibility in TypeScript?",
+      "answer": "Type compatibility in TypeScript determines if one type can be assigned to another type, based on their structures.",
+      "topic": "TypeScript"
+    },
+    {
+      "question": "How do you handle exceptions in TypeScript?",
+      "answer": "Exceptions in TypeScript are handled using try/catch blocks, similar to JavaScript.",
+      "topic": "TypeScript"
     }
   ]
   

@@ -1,13 +1,129 @@
 [
     {
       "question": "What is CSS?",
-      "answer": "Cascading Style Sheets",
+      "answer": "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML or XML.",
       "topic": "CSS"
     },
     {
-      "question": "What is the purpose of CSS?",
-      "answer": "To ske everything look pretty.",
+      "question": "What is the difference between classes and IDs in CSS?",
+      "answer": "Classes are reusable and can be applied to multiple elements, while IDs are unique and can only be applied to one element per page.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is the CSS box model?",
+      "answer": "The CSS box model describes the rectangular boxes generated for elements in the document tree and consists of margins, borders, padding, and the content area.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What are CSS selectors?",
+      "answer": "CSS selectors are patterns used to select and style HTML elements based on their attributes, such as tag name, class, ID, and more.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is the difference between inline, inline-block, and block elements in CSS?",
+      "answer": "Inline elements do not start on a new line and only take up as much width as necessary. Block elements start on a new line and take up the full width available. Inline-block elements are like inline elements but respect height and width properties.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is a CSS pseudo-class?",
+      "answer": "A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element, such as :hover, :active, or :nth-child.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is a CSS pseudo-element?",
+      "answer": "A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element, such as ::before, ::after, or ::first-line.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is the purpose of the z-index property in CSS?",
+      "answer": "The z-index property specifies the stack order of an element, with higher values appearing in front of lower values.",
+      "topic": "CSS"
+    },
+    {
+      "question": "How do you center an element horizontally and vertically in CSS?",
+      "answer": "You can center an element horizontally and vertically using various methods, such as flexbox, grid, or absolute positioning with transform.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is the difference between relative and absolute positioning in CSS?",
+      "answer": "Relative positioning positions an element relative to its normal position, while absolute positioning positions an element relative to its closest positioned ancestor or the initial containing block.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is flexbox in CSS?",
+      "answer": "Flexbox is a one-dimensional layout model that allows you to design complex layouts with alignment, distribution, and space management capabilities along a single axis.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is CSS Grid Layout?",
+      "answer": "CSS Grid Layout is a two-dimensional layout system that enables the creation of complex, responsive web layouts by defining rows and columns.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What are media queries in CSS?",
+      "answer": "Media queries are a CSS technique used to apply styles based on the conditions of the viewport, such as width, height, orientation, and resolution, enabling responsive design.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is the purpose of the CSS float property?",
+      "answer": "The float property is used to position an element to the left or right, allowing text and inline elements to wrap around it.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is the difference between margin and padding in CSS?",
+      "answer": "Margin is the space outside an element's border, while padding is the space inside an element's border and around its content.",
+      "topic": "CSS"
+    },
+    {
+      "question": "How do you create a CSS transition?",
+      "answer": "You create a CSS transition by specifying the property to transition, the duration, and optionally the timing function and delay, using the transition property.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What are CSS animations?",
+      "answer": "CSS animations allow you to animate the transition of CSS properties over time using keyframes and the animation property.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is the box-sizing property in CSS?",
+      "answer": "The box-sizing property defines how the total width and height of an element are calculated, either including or excluding padding and border.",
+      "topic": "CSS"
+    },
+    {
+      "question": "How do you apply custom fonts in CSS?",
+      "answer": "You can apply custom fonts in CSS using the @font-face rule to define the font and then applying it using the font-family property.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is the difference between 'em' and 'rem' units in CSS?",
+      "answer": "'em' units are relative to the font-size of the element they are used on, while 'rem' units are relative to the font-size of the root element (html).",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is specificity in CSS?",
+      "answer": "Specificity is the measure of how specific a CSS selector is, determining which styles are applied when multiple selectors match the same element.",
+      "topic": "CSS"
+    },
+    {
+      "question": "How do you create a responsive web design with CSS?",
+      "answer": "You create a responsive web design with CSS by using fluid grids, flexible images, and media queries to adapt the layout to different screen sizes.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is the :nth-child() pseudo-class in CSS?",
+      "answer": "The :nth-child() pseudo-class selects elements based on their position in a group of siblings, allowing you to apply styles to specific elements or patterns.",
+      "topic": "CSS"
+    },
+    {
+      "question": "How do you hide an element in CSS?",
+      "answer": "You can hide an element in CSS using the display: none; property, which removes the element from the document flow, or visibility: hidden;, which hides the element but retains its space.",
+      "topic": "CSS"
+    },
+    {
+      "question": "What is the difference between 'inline' and 'inline-block' elements in CSS?",
+      "answer": "Inline elements do not respect height and width properties, while inline-block elements allow height and width to be set, behaving like inline elements with block properties.",
       "topic": "CSS"
     }
   ]
+  
   
