@@ -13,7 +13,8 @@ export class FlashcardService {
 
   // Method to get flashcards based on the selected topic
   getFlashcardsByTopic(topic: string): Observable<Flashcard[]> {
-    const url = `assets/data/${this.getFileName(topic)}.json`; // Constructs the URL to the JSON file using the getFileName method.
+    //const url = `../assets/data/${this.getFileName(topic)}.json`; // Constructs the URL to the JSON file using the getFileName method.
+   const url = `assets/data/${this.getFileName(topic)}.json`;
     return this.http.get<Flashcard[]>(url); // Returns an Observable of Flashcard[] by making an HTTP GET request to the constructed URL.
   }
 
