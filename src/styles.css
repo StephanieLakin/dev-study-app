@@ -1,2 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-
+h1,
+h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p, .quiz-questions {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+}

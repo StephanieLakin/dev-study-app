@@ -30,7 +30,7 @@ export class QuestionsComponent implements OnInit {
   constructor(private flashcardService: FlashcardService) {}
 
   ngOnInit() {
-    // Initialize with a default topic or prompt user to select a topic
+    //prompt user to select a topic?
   }
   onTopicChange(event: Event) {
     const target = event.target as HTMLSelectElement;

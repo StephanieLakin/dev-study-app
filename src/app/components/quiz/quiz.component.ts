@@ -1,9 +1,6 @@
 import {
   Component,
-  EventEmitter,
-  Output,
   ViewChild,
-  viewChild,
 } from '@angular/core';
 import { Router } from '@angular/router';
 import { TimerComponent } from '../timer/timer.component';
@@ -17,7 +14,7 @@ export class QuizComponent {
   @ViewChild(TimerComponent) timerComponent!: TimerComponent;
 
   isQuizToBeStarted: boolean = false;
-  selectedTopic: string = 'OOP';
+  selectedTopic: string = 'Angular Quiz';
   topics: string[] = [
     'OOP Quiz',
     'ASP .NET MVC Quiz',
