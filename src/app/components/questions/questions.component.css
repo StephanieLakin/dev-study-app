@@ -14,30 +14,34 @@
     margin-right: 5px;
   }
   
-  .prev,
-  .next, .refresh {
+  /* .prev,
+  .next, .refresh, .home  */
+  button {
     margin-top: 10px;
-    padding: 6px 8px;
+    padding: 10px 20px;
     background-color: teal;
     color: #fff;
     border: none;
-    border-radius: 0.5em;
     background-color: rgb(81, 89, 80);
     border: none;
     cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
   }
 
-  .prev:hover,
-  .next:hover, .refresh:hover {
-  background-color: #252525;
+ button:hover {
+  background-color: rgb(61, 69, 60);
 }
   
-  .prev {
+  .prev, .refresh {
     margin-right: 10px;
   }
   
   .score {
-    background-color: mediumturquoise;
+    /* background-color: mediumturquoise; */
+    background-color: #001718;
+    border-radius: 4px;
+    color: #fff;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -65,6 +69,7 @@
     height: 20px;
     text-align: center;
   }
+  
   h1,
 h2, h3 {
   font-family: Arial, Helvetica, sans-serif;

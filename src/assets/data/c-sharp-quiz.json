@@ -1,0 +1,36 @@
+[
+    {
+      "question": "What is the purpose of constructors in C#?",
+      "options": {
+        "a": "To initialize objects of a class when they are created.",
+        "b": "To handle events within a C# program.",
+        "c": "To manage memory allocation for objects.",
+        "d": "To define the structure of a class."
+      },
+      "correctAnswer": "a",
+      "id": 1
+    },
+    {
+      "question": "What is the purpose of 'using' statement in C#?",
+      "options": {
+        "a": "To include namespaces in a C# program.",
+        "b": "To manage resources and ensure their disposal.",
+        "c": "To declare variables in a C# program.",
+        "d": "To define exception handling in C#."
+      },
+      "correctAnswer": "a",
+      "id": 2
+    },
+    {
+      "question": "What does 'void' mean in a C# method declaration?",
+      "options": {
+        "a": "It returns a boolean value.",
+        "b": "It does not return any value.",
+        "c": "It indicates an async method.",
+        "d": "It specifies a static method."
+      },
+      "correctAnswer": "b",
+      "id": 3
+    }
+  ]
+  

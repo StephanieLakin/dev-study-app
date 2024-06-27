@@ -93,7 +93,9 @@ export class FlashcardService {
       case 'SQL':
         return 'mssql';
         case 'Angular Quiz':
-          return 'angular-quiz'
+          return 'angular-quiz';
+          case 'C# Quiz':
+            return 'c-sharp-quiz'
       default:
         throw new Error('Unknown topic');
     }

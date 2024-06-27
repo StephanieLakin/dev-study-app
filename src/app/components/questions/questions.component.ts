@@ -1,5 +1,6 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FlashcardService } from '../../services/flashcard.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-questions',
@@ -10,14 +11,14 @@ export class QuestionsComponent implements OnInit {
   @Output() quizFinished = new EventEmitter<void>();
 
   topics: string[] = [
+    // 'ASP .NET MVC Quiz',
     'Angular Quiz',
-    'ASP .NET MVC Quiz',
-    '.Net Core Web API Quiz',
-    'TypeScript Quiz',
-    'CSS Quiz',
-    'Javascript Quiz',
+    // '.Net Core Web API Quiz',
+    // 'TypeScript Quiz',
+    // 'CSS Quiz',
+    // 'Javascript Quiz',
     'C# Quiz',
-    'SQL Quiz',
+    // 'SQL Quiz',
   ];
   selectedTopic!: string;
   questions: any[] = [];
@@ -27,7 +28,7 @@ export class QuestionsComponent implements OnInit {
   answer: string = '';
   score: number = 0;
 
-  constructor(private flashcardService: FlashcardService) {}
+  constructor(private flashcardService: FlashcardService, private router: Router) {}
 
   ngOnInit() {
     //prompt user to select a topic?
@@ -83,5 +84,9 @@ export class QuestionsComponent implements OnInit {
     this.score = 0;
     this.answer = '';
     this.question = this.questions[this.i];
+  }
+
+  onHome() {
+    this.router.navigate(['/home']);
   }
 }

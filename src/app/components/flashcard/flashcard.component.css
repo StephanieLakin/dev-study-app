@@ -63,7 +63,7 @@
 
 .toggleButton:hover,
 .selectionBtn:hover {
-  background-color: #252525;
+  background-color: rgb(61, 69, 60);
 }
 
 select {
@@ -95,11 +95,11 @@ select {
 
 .lightMode {
   background-color: #f5f5f5;
-  color: black;
+  color: #001718;
 }
 
 .darkMode {
-  background-color: #2b2b2b;
+  background-color: #001718;
   color: #fff;
 }
 
