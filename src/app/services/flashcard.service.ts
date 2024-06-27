@@ -66,6 +66,11 @@ export class FlashcardService {
     );
   }
 
+  getQuizQuestionsByTopic(topic: string): Observable<any[]> {
+    const url = `assets/data/${this.getFileName(topic)}.json`;
+    return this.http.get<any[]>(url);
+  }
+
   // Private method to get the filename based on the topic
   private getFileName(topic: string): string {
     switch (topic) {
@@ -87,6 +92,8 @@ export class FlashcardService {
         return 'c-sharp';
       case 'SQL':
         return 'mssql';
+        case 'Angular Quiz':
+          return 'angular-quiz'
       default:
         throw new Error('Unknown topic');
     }

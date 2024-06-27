@@ -1,1 +1,18 @@
 <p>c-sharp works!</p>
+<div *ngIf="!showResults">
+    <!-- <h2>Question {{ currentQuestionIndex + 1 }} of {{ questions.length }}</h2>
+    <p>{{ questions[currentQuestionIndex].question }}</p> -->
+    <input #answerInput type="text">
+    <button (click)="answerQuestion(answerInput.value)">Submit Answer</button>
+  </div>
+  
+  <div *ngIf="showResults">
+    <h2>Quiz Results</h2>
+    <ul>
+      <!-- <li *ngFor="let question of questions; let i = index">
+        {{ question.question }} - Your Answer: {{ userAnswers[i] }} - Correct Answer: {{ question.answer }}
+      </li> -->
+    </ul>
+    <button (click)="restartQuiz()">Restart Quiz</button>
+  </div>
+  

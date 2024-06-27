@@ -1,0 +1,24 @@
+[
+  {
+    "question": "What is the purpose of ngOnChanges hook in Angular?",
+    "options": {
+      "a": "It is used to respond to input properties of an angular component, getting called whenever there are changes to input properties.",
+      "b": "It is used to initialize the directive or component after Angular first displays the data-bound properties and sets the directive or component's input properties.",
+      "c": "It is used to handle the changes of a view or component’s template.",
+      "d": "It is used to handle the lifecycle events of a component."
+    },
+    "correctAnswer": "a",
+    "id": 1
+  },
+  {
+    "question": "What is the purpose of ngOnInit hook in Angular?",
+    "options": {
+      "a": "It is used to initialize the directive or component after Angular first displays the data-bound properties and sets the directive or component's input properties.",
+      "b": "It is used to respond to input properties of an angular component, getting called whenever there are changes to input properties.",
+      "c": "It is used to handle the changes of a view or component’s template.",
+      "d": "It is used to handle the lifecycle events of a component."
+    },
+    "correctAnswer": "a",
+    "id": 2
+  }
+]

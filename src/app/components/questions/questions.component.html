@@ -1,0 +1,61 @@
+  <!-- <div class="selector-container">
+    <label for="topics">Select Topic:</label>
+    <select id="topics" (change)="onTopicChange($event)">
+      <option *ngFor="let topic of topics" [value]="topic">{{ topic }}</option>
+    </select>
+  </div>
+  
+  <div *ngIf="question != null; else showScore" class="question-box">
+    <h3>Question {{i + 1}}/{{totalQuestions}}</h3>
+    <h3>{{question.question}}</h3>
+    <div class="options" *ngFor="let optionKey of getOptionKeys(question.options)">
+      <input
+        type="radio"
+        name="options"
+        [value]="optionKey"
+        (change)="onSelecting($event)"
+        [checked]="answer === optionKey"
+      />{{ optionKey }}: {{ question.options[optionKey] }}
+    </div>
+    <button class="prev" *ngIf="i > 0" (click)="onPrev()">prev</button>
+    <button class="next" (click)="onNext()">next</button>
+  </div>
+  
+  <ng-template #showScore>
+    <div class="score">
+      <h3>Score: {{score}}</h3>
+    </div>
+  </ng-template>
+  
+   -->
+
+   <div class="selector-container">
+    <label for="topics">Select Topic:</label>
+    <select id="topics" (change)="onTopicChange($event)">
+      <option *ngFor="let topic of topics" [value]="topic">{{ topic }}</option>
+    </select>
+  </div>
+  
+  <div *ngIf="question != null; else showScore" class="question-box">
+    <h3>Question {{ i + 1 }}/{{ totalQuestions }}</h3>
+    <h3>{{ question.question }}</h3>
+    <div class="options" *ngFor="let optionKey of getOptionKeys(question.options)">
+      <input
+        type="radio"
+        name="options"
+        [value]="optionKey"
+        (change)="onSelecting($event)"
+        [checked]="answer === optionKey"
+      />{{ optionKey }}: {{ question.options[optionKey] }}
+    </div>
+    <button class="prev" *ngIf="i > 0" (click)="onPrev()">Prev</button>
+    <button class="next" (click)="onNext()">Next</button>
+  </div>
+  
+  <ng-template #showScore>
+    <div class="score">
+      <h3>Score: {{ score }}</h3>     
+    </div>
+    <button class="refresh" (click)="onRefresh()">Try Again</button>
+  </ng-template>
+  
