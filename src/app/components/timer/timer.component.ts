@@ -1,27 +1,46 @@
-import { Component } from "@angular/core";
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
-  selector: "timer",
-  templateUrl: "./timer.component.html",
-  styleUrls: ["./timer.component.css"]
+  selector: 'timer',
+  templateUrl: './timer.component.html',
+  styleUrls: ['./timer.component.css'],
 })
-export class TimerComponent {
-  date: any = new Date();
-  minutes: any = 0;
-  seconds: any = 0;
+export class TimerComponent implements OnInit, OnDestroy {
+  // date: any = new Date();
+  minutes: number = 0;
+  seconds: number = 0;
+  private intervalId: any;
+
   ngOnInit() {
-    // console.log("Seconds : ", this.seconds);
-    this.minutes = "0" + this.minutes;
-    this.seconds = "0" + this.seconds;
-    setInterval(() => {
-      if (this.seconds >= 59) {
-        ++this.minutes;
-        this.minutes = this.minutes < 10 ? "0" + this.minutes : this.minutes;
+    this.startTimer();
+  }
+
+  ngOnDestroy() {
+    this.stopTimer();
+  }
+
+  startTimer() {
+    this.stopTimer(); //ensure timers don't overlap
+    this.intervalId = setInterval(() => {
+      this.seconds++;
+      if (this.seconds === 60) {
         this.seconds = 0;
-      } else {
-        ++this.seconds;
+        this.minutes++;
       }
-      this.seconds = this.seconds < 10 ? "0" + this.seconds : this.seconds;
     }, 1000);
+  }
+
+  stopTimer() {
+    if (this.intervalId) {
+      clearInterval(this.intervalId);
+      this.intervalId = null;
+    }
+  }
+
+  resetTimer() {
+    this.stopTimer();
+    this.minutes = 0;
+    this.seconds = 0;
+    this.startTimer();
   }
 }

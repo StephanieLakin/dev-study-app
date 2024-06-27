@@ -1,10 +1,15 @@
-<!-- <div class="quiz-main">
+<div class="container">
+  <div class="image-wrapper">
+    <img src="assets/images/eskieDev.png" alt="eskie" class="image" />
+    <h1 class="title"><a (click)="home()">YukiDev</a></h1>
+  </div>
+  <div class="quiz-container">
     <div class="header">
       <h3>Quiz App</h3>
       <timer *ngIf="isQuizToBeStarted"></timer>
     </div>
     <div class="quiz-questions" *ngIf="isQuizToBeStarted; else showThis">
-      <app-questions></app-questions>
+      <app-questions (quizFinished)="onQuizFinished()"></app-questions>
     </div>
     <ng-template #showThis>
       <div class="start">
@@ -12,47 +17,4 @@
       </div>
     </ng-template>
   </div>
-  
-  <div class="container">
-    <div class="image-wrapper">
-      <img
-        src="assets/images/eskieScreen.jpg"
-        alt="eskie"
-        class="image"
-      />
-      <h1 class="title"><a (click)="home()">YukiDev</a></h1>
-    </div>
-    <div class="flashcard-container">
-   
-      <div class="topic-selector">
-        <label for="topic">Select Topic: </label>
-        <select id="topic" (change)="selectTopic($event)">
-          <option *ngFor="let topic of topics" [value]="topic">
-            {{ topic }}
-          </option>
-        </select>
-      </div>
-    </div>
-  </div> -->
-
-  <div class="container">
-    <div class="image-wrapper">
-      <img src="assets/images/eskieScreen.jpg" alt="eskie" class="image" />
-      <h1 class="title"><a (click)="home()">YukiDev</a></h1>
-    </div>
-    <div class="quiz-container">
-      <div class="header">
-        <h3>Quiz App</h3>
-        <timer *ngIf="isQuizToBeStarted"></timer>
-      </div>
-      <div class="quiz-questions" *ngIf="isQuizToBeStarted; else showThis">
-        <app-questions></app-questions>
-      </div>
-      <ng-template #showThis>
-        <div class="start">
-          <button (click)="onStart()">Start Quiz</button>
-        </div>
-      </ng-template>
-    </div>
-  </div>
-  
+</div>

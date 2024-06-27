@@ -1,12 +1,21 @@
-import { Component } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  Output,
+  ViewChild,
+  viewChild,
+} from '@angular/core';
 import { Router } from '@angular/router';
+import { TimerComponent } from '../timer/timer.component';
 
 @Component({
   selector: 'app-quiz',
   templateUrl: './quiz.component.html',
-  styleUrl: './quiz.component.css'
+  styleUrl: './quiz.component.css',
 })
 export class QuizComponent {
+  @ViewChild(TimerComponent) timerComponent!: TimerComponent;
+
   isQuizToBeStarted: boolean = false;
   selectedTopic: string = 'OOP';
   topics: string[] = [
@@ -19,19 +28,22 @@ export class QuizComponent {
     'C# Quiz',
     'Javascript Quiz',
     'SQL Quiz',
-    'Angular Quiz'
+    'Angular Quiz',
   ];
 
-constructor(private router: Router){}
+  constructor(private router: Router) {}
 
   onStart() {
     this.isQuizToBeStarted = !this.isQuizToBeStarted;
-  }  
+  }
 
   onRefresh() {
     this.isQuizToBeStarted = false;
     setTimeout(() => {
       this.isQuizToBeStarted = true;
+      if (this.timerComponent) {
+        this.timerComponent.resetTimer();
+      }
     }, 100);
   }
 
@@ -42,7 +54,12 @@ constructor(private router: Router){}
   selectTopic(event: Event): void {
     const target = event.target as HTMLSelectElement;
     this.selectedTopic = target.value;
-   // this.updateQuiz();
+    this.onRefresh();
   }
 
+  onQuizFinished() {
+    if (this.timerComponent) {
+      this.timerComponent.stopTimer();
+    }
+  }
 }
