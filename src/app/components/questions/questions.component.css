@@ -17,12 +17,12 @@
   /* .prev,
   .next, .refresh, .home  */
   button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: teal;
+    margin-top: 20px;
+    padding: 10px 20px;    
     color: #fff;
     border: none;
-    background-color: rgb(81, 89, 80);
+    /* background-color: rgb(81, 89, 80); */
+    background-color:#3889D0;
     border: none;
     cursor: pointer;
     font-size: 16px;
@@ -30,7 +30,9 @@
   }
 
  button:hover {
-  background-color: rgb(61, 69, 60);
+  /* background-color: rgb(61, 69, 60); */
+  opacity: 0.80;
+  #1E8BEA
 }
   
   .prev, .refresh {
@@ -39,7 +41,7 @@
   
   .score {
     /* background-color: mediumturquoise; */
-    background-color: #001718;
+    background-color: lightseagreen;
     border-radius: 4px;
     color: #fff;
     height: 100%;
@@ -55,7 +57,8 @@
   .selector-container {
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 30px;
+    margin: 0 au;
   }
   
   .selector-container label {

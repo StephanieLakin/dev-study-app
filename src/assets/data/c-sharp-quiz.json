@@ -31,6 +31,304 @@
       },
       "correctAnswer": "b",
       "id": 3
+    },
+    {
+      "question": "What is a namespace in C#?",
+      "options": {
+        "a": "A keyword used to define a new class.",
+        "b": "A collection of classes, interfaces, and other types.",
+        "c": "A data type used to store numeric values.",
+        "d": "A method for handling exceptions."
+      },
+      "correctAnswer": "b",
+      "id": 4
+    },
+    {
+      "question": "What is the difference between 'ref' and 'out' keywords in C#?",
+      "options": {
+        "a": "'ref' passes arguments by reference, 'out' passes arguments by value.",
+        "b": "'ref' initializes arguments before passing, 'out' does not require initialization.",
+        "c": "'ref' is used for value types, 'out' is used for reference types.",
+        "d": "'ref' is for async methods, 'out' is for sync methods."
+      },
+      "correctAnswer": "b",
+      "id": 5
+    },
+    {
+      "question": "What is a delegate in C#?",
+      "options": {
+        "a": "A type that represents references to methods with a particular parameter list and return type.",
+        "b": "A keyword used to declare a new variable.",
+        "c": "A method used for handling exceptions.",
+        "d": "A feature for storing large amounts of data."
+      },
+      "correctAnswer": "a",
+      "id": 6
+    },
+    {
+      "question": "What is polymorphism in C#?",
+      "options": {
+        "a": "The ability to create a variable that can hold any data type.",
+        "b": "The ability to process objects differently based on their data type or class.",
+        "c": "The ability to inherit methods from multiple classes.",
+        "d": "The ability to declare multiple variables with the same name."
+      },
+      "correctAnswer": "b",
+      "id": 7
+    },
+    {
+      "question": "What is an interface in C#?",
+      "options": {
+        "a": "A class that cannot be instantiated.",
+        "b": "A blueprint of a class that contains only method declarations.",
+        "c": "A type of inheritance where a class can inherit from multiple base classes.",
+        "d": "A data type used to store strings."
+      },
+      "correctAnswer": "b",
+      "id": 8
+    },
+    {
+      "question": "What is the purpose of the 'static' keyword in C#?",
+      "options": {
+        "a": "To declare a variable that can be modified.",
+        "b": "To create a class that cannot be instantiated.",
+        "c": "To declare a member that belongs to the type itself rather than to a specific object.",
+        "d": "To create a method that returns a boolean value."
+      },
+      "correctAnswer": "c",
+      "id": 9
+    },
+    {
+      "question": "What is encapsulation in C#?",
+      "options": {
+        "a": "The concept of hiding the internal details of an object and showing only its functionality.",
+        "b": "The concept of creating a new class from an existing class.",
+        "c": "The concept of overloading methods in a class.",
+        "d": "The concept of using pointers to manage memory."
+      },
+      "correctAnswer": "a",
+      "id": 10
+    },
+    {
+      "question": "What is the purpose of the 'abstract' keyword in C#?",
+      "options": {
+        "a": "To declare a method that must be implemented in a derived class.",
+        "b": "To declare a variable that cannot be modified.",
+        "c": "To create a new instance of a class.",
+        "d": "To handle exceptions in a program."
+      },
+      "correctAnswer": "a",
+      "id": 11
+    },
+    {
+      "question": "What is inheritance in C#?",
+      "options": {
+        "a": "The ability to create a new class from an existing class.",
+        "b": "The ability to overload methods in a class.",
+        "c": "The ability to declare multiple variables with the same name.",
+        "d": "The ability to handle exceptions in a program."
+      },
+      "correctAnswer": "a",
+      "id": 12
+    },
+    {
+      "question": "What is the purpose of the 'override' keyword in C#?",
+      "options": {
+        "a": "To declare a new class from an existing class.",
+        "b": "To modify the behavior of an inherited method.",
+        "c": "To declare a variable that cannot be modified.",
+        "d": "To handle exceptions in a program."
+      },
+      "correctAnswer": "b",
+      "id": 13
+    },
+    {
+      "question": "What is a property in C#?",
+      "options": {
+        "a": "A method that handles exceptions in a program.",
+        "b": "A class that contains only abstract methods.",
+        "c": "A member that provides a flexible mechanism to read, write, or compute the value of a private field.",
+        "d": "A data type used to store numeric values."
+      },
+      "correctAnswer": "c",
+      "id": 14
+    },
+    {
+      "question": "What is the purpose of the 'sealed' keyword in C#?",
+      "options": {
+        "a": "To prevent a class from being inherited.",
+        "b": "To declare a method that must be overridden.",
+        "c": "To handle exceptions in a program.",
+        "d": "To create a new instance of a class."
+      },
+      "correctAnswer": "a",
+      "id": 15
+    },
+    {
+      "question": "What is an enum in C#?",
+      "options": {
+        "a": "A class that contains only static methods.",
+        "b": "A type that defines a set of named constants.",
+        "c": "A method that handles exceptions in a program.",
+        "d": "A data type used to store strings."
+      },
+      "correctAnswer": "b",
+      "id": 16
+    },
+    {
+      "question": "What is the purpose of the 'try-catch' block in C#?",
+      "options": {
+        "a": "To declare a new class.",
+        "b": "To handle exceptions and provide a way to recover from errors.",
+        "c": "To create a new instance of a class.",
+        "d": "To declare a variable that cannot be modified."
+      },
+      "correctAnswer": "b",
+      "id": 17
+    },
+    {
+      "question": "What is the purpose of the 'finally' block in C#?",
+      "options": {
+        "a": "To declare a method that must be overridden.",
+        "b": "To execute code after the try and catch blocks, regardless of whether an exception was thrown.",
+        "c": "To declare a variable that cannot be modified.",
+        "d": "To create a new instance of a class."
+      },
+      "correctAnswer": "b",
+      "id": 18
+    },
+    {
+      "question": "What is the purpose of the 'partial' keyword in C#?",
+      "options": {
+        "a": "To define a method that can be split across multiple files.",
+        "b": "To declare a variable that cannot be modified.",
+        "c": "To handle exceptions in a program.",
+        "d": "To create a new instance of a class."
+      },
+      "correctAnswer": "a",
+      "id": 19
+    },
+    {
+      "question": "What is the purpose of the 'base' keyword in C#?",
+      "options": {
+        "a": "To declare a new class.",
+        "b": "To refer to the immediate parent class of a derived class.",
+        "c": "To handle exceptions in a program.",
+        "d": "To create a new instance of a class."
+      },
+      "correctAnswer": "b",
+      "id": 20
+    },
+    {
+      "question": "What is a struct in C#?",
+      "options": {
+        "a": "A data type used to store strings.",
+        "b": "A value type that is typically used to encapsulate small groups of related variables.",
+        "c": "A class that contains only abstract methods.",
+        "d": "A method that handles exceptions in a program."
+      },
+      "correctAnswer": "b",
+      "id": 21
+    },
+    {
+      "question": "What is a lambda expression in C#?",
+      "options": {
+        "a": "A class that contains only static methods.",
+        "b": "A concise way to represent anonymous methods using a syntax that is similar to functional programming languages.",
+        "c": "A method that handles exceptions in a program.",
+        "d": "A data type used to store numeric values."
+      },
+      "correctAnswer": "b",
+      "id": 22
+    },
+    {
+      "question": "What is the difference between '=='' and 'Equals' method in C#?",
+      "options": {
+        "a": "'==' compares object references, 'Equals' compares object values.",
+        "b": "'==' compares object values, 'Equals' compares object references.",
+        "c": "'==' is used for numeric comparisons, 'Equals' is used for string comparisons.",
+        "d": "'==' is used for string comparisons, 'Equals' is used for numeric comparisons."
+      },
+      "correctAnswer": "a",
+      "id": 23
+    },
+    {
+      "question": "What is the purpose of the 'virtual' keyword in C#?",
+      "options": {
+        "a": "To declare a method that must be overridden.",
+        "b": "To declare a method that can be overridden in a derived class.",
+        "c": "To handle exceptions in a program.",
+        "d": "To create a new instance of a class."
+      },
+      "correctAnswer": "b",
+      "id": 24
+    },
+    {
+      "question": "What is a tuple in C#?",
+      "options": {
+        "a": "A class that contains only static methods.",
+        "b": "A data structure that can hold multiple values of different types.",
+        "c": "A method that handles exceptions in a program.",
+        "d": "A data type used to store strings."
+      },
+      "correctAnswer": "b",
+      "id": 25
+    },
+    {
+      "question": "What is the purpose of the 'readonly' keyword in C#?",
+      "options": {
+        "a": "To declare a variable that can only be assigned a value once, typically in the constructor.",
+        "b": "To declare a method that must be overridden.",
+        "c": "To handle exceptions in a program.",
+        "d": "To create a new instance of a class."
+      },
+      "correctAnswer": "a",
+      "id": 26
+    },
+    {
+      "question": "What is the purpose of the 'Thread' class in C#?",
+      "options": {
+        "a": "To declare a variable that can be modified.",
+        "b": "To create and manage individual threads of execution.",
+        "c": "To handle exceptions in a program.",
+        "d": "To declare a method that must be overridden."
+      },
+      "correctAnswer": "b",
+      "id": 27
+    },
+    {
+      "question": "What is the purpose of the 'async' keyword in C#?",
+      "options": {
+        "a": "To declare a method that returns a boolean value.",
+        "b": "To create a method that can run asynchronously.",
+        "c": "To declare a variable that cannot be modified.",
+        "d": "To handle exceptions in a program."
+      },
+      "correctAnswer": "b",
+      "id": 28
+    },
+    {
+      "question": "What is the purpose of the 'lock' statement in C#?",
+      "options": {
+        "a": "To declare a variable that cannot be modified.",
+        "b": "To handle exceptions in a program.",
+        "c": "To ensure that one thread does not enter a critical section of code while another thread is in the critical section.",
+        "d": "To declare a method that must be overridden."
+      },
+      "correctAnswer": "c",
+      "id": 29
+    },
+    {
+      "question": "What is the purpose of the 'this' keyword in C#?",
+      "options": {
+        "a": "To refer to the current instance of the class.",
+        "b": "To declare a new class.",
+        "c": "To handle exceptions in a program.",
+        "d": "To create a new instance of a class."
+      },
+      "correctAnswer": "a",
+      "id": 30
     }
   ]
+  
   

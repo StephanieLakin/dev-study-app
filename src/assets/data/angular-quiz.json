@@ -20,5 +20,313 @@
     },
     "correctAnswer": "a",
     "id": 2
+  },
+  {
+    "question": "What does the ngIf directive do?",
+    "options": {
+      "a": "It repeats a portion of the DOM tree.",
+      "b": "It conditionally includes a template based on the value of an expression.",
+      "c": "It sets up two-way data binding.",
+      "d": "It dynamically changes the class of an element."
+    },
+    "correctAnswer": "b",
+    "id": 3
+  },
+  {
+    "question": "What is the Angular CLI command to create a new component?",
+    "options": {
+      "a": "ng new component",
+      "b": "ng create component",
+      "c": "ng generate component",
+      "d": "ng add component"
+    },
+    "correctAnswer": "c",
+    "id": 4
+  },
+  {
+    "question": "Which Angular decorator is used to define a component?",
+    "options": {
+      "a": "@Directive",
+      "b": "@Pipe",
+      "c": "@Component",
+      "d": "@Injectable"
+    },
+    "correctAnswer": "c",
+    "id": 5
+  },
+  {
+    "question": "What does the 'async' pipe do in Angular?",
+    "options": {
+      "a": "It transforms a value to uppercase.",
+      "b": "It subscribes to an Observable or Promise and returns the latest value.",
+      "c": "It iterates over a collection.",
+      "d": "It sorts a list of values."
+    },
+    "correctAnswer": "b",
+    "id": 6
+  },
+  {
+    "question": "How do you create a service in Angular using the CLI?",
+    "options": {
+      "a": "ng new service",
+      "b": "ng create service",
+      "c": "ng generate service",
+      "d": "ng add service"
+    },
+    "correctAnswer": "c",
+    "id": 7
+  },
+  {
+    "question": "What is Angular's dependency injection system used for?",
+    "options": {
+      "a": "To inject dependencies directly into HTML.",
+      "b": "To manage how components communicate.",
+      "c": "To create and manage services and other dependencies.",
+      "d": "To compile the application."
+    },
+    "correctAnswer": "c",
+    "id": 8
+  },
+  {
+    "question": "Which lifecycle hook is called once, after the first ngOnChanges?",
+    "options": {
+      "a": "ngOnDestroy",
+      "b": "ngAfterContentInit",
+      "c": "ngAfterViewChecked",
+      "d": "ngAfterViewInit"
+    },
+    "correctAnswer": "d",
+    "id": 9
+  },
+  {
+    "question": "What is the purpose of Angular's router?",
+    "options": {
+      "a": "To manage data flow between components.",
+      "b": "To handle HTTP requests and responses.",
+      "c": "To manage navigation between views or components.",
+      "d": "To compile TypeScript into JavaScript."
+    },
+    "correctAnswer": "c",
+    "id": 10
+  },
+  {
+    "question": "How can you pass data to a child component in Angular?",
+    "options": {
+      "a": "Using Input bindings.",
+      "b": "Using Output bindings.",
+      "c": "Using Services.",
+      "d": "Using Directives."
+    },
+    "correctAnswer": "a",
+    "id": 11
+  },
+  {
+    "question": "What does the ngFor directive do?",
+    "options": {
+      "a": "It conditionally includes a template based on the value of an expression.",
+      "b": "It dynamically changes the class of an element.",
+      "c": "It repeats a portion of the DOM tree.",
+      "d": "It sets up two-way data binding."
+    },
+    "correctAnswer": "c",
+    "id": 12
+  },
+  {
+    "question": "Which service is used to make HTTP requests in Angular?",
+    "options": {
+      "a": "HttpClientService",
+      "b": "HttpService",
+      "c": "HttpClient",
+      "d": "Http"
+    },
+    "correctAnswer": "c",
+    "id": 13
+  },
+  {
+    "question": "What does the ngOnDestroy lifecycle hook do?",
+    "options": {
+      "a": "It initializes the directive or component.",
+      "b": "It is called when Angular destroys the directive or component.",
+      "c": "It is called after the default change detector has checked the directive or component.",
+      "d": "It is called after Angular has fully initialized all content of a directive or component."
+    },
+    "correctAnswer": "b",
+    "id": 14
+  },
+  {
+    "question": "How can you handle form validation in Angular?",
+    "options": {
+      "a": "Using CSS classes.",
+      "b": "Using form control classes and directives.",
+      "c": "Using lifecycle hooks.",
+      "d": "Using event listeners."
+    },
+    "correctAnswer": "b",
+    "id": 15
+  },
+  {
+    "question": "What is a module in Angular?",
+    "options": {
+      "a": "A class that encapsulates a set of related components, directives, pipes, and services.",
+      "b": "A function that manages dependencies.",
+      "c": "A class that provides a way to extend HTML.",
+      "d": "A file that contains CSS styles."
+    },
+    "correctAnswer": "a",
+    "id": 16
+  },
+  {
+    "question": "What does the Angular CLI command 'ng build' do?",
+    "options": {
+      "a": "Creates a new Angular project.",
+      "b": "Builds the project and outputs static files.",
+      "c": "Serves the project locally.",
+      "d": "Runs the unit tests."
+    },
+    "correctAnswer": "b",
+    "id": 17
+  },
+  {
+    "question": "What is Angular Universal?",
+    "options": {
+      "a": "A package for managing global state.",
+      "b": "A tool for making Angular applications server-side rendered.",
+      "c": "A module for internationalization.",
+      "d": "A library for reactive programming."
+    },
+    "correctAnswer": "b",
+    "id": 18
+  },
+  {
+    "question": "Which Angular service can be used for navigation and URL manipulation?",
+    "options": {
+      "a": "HttpClient",
+      "b": "Router",
+      "c": "NgZone",
+      "d": "FormsModule"
+    },
+    "correctAnswer": "b",
+    "id": 19
+  },
+  {
+    "question": "What is the purpose of Angular's Zone.js?",
+    "options": {
+      "a": "To provide internationalization support.",
+      "b": "To manage and detect changes in asynchronous operations.",
+      "c": "To handle HTTP requests.",
+      "d": "To compile TypeScript into JavaScript."
+    },
+    "correctAnswer": "b",
+    "id": 20
+  },
+  {
+    "question": "What is a directive in Angular?",
+    "options": {
+      "a": "A class that encapsulates a set of related components.",
+      "b": "A function that manages dependencies.",
+      "c": "A class that provides a way to extend HTML.",
+      "d": "A file that contains CSS styles."
+    },
+    "correctAnswer": "c",
+    "id": 21
+  },
+  {
+    "question": "What is the purpose of Angular's AOT (Ahead-of-Time) compilation?",
+    "options": {
+      "a": "To compile TypeScript code into JavaScript.",
+      "b": "To optimize the application for faster rendering.",
+      "c": "To compile HTML templates and components into JavaScript code before the browser downloads and runs the code.",
+      "d": "To manage and detect changes in asynchronous operations."
+    },
+    "correctAnswer": "c",
+    "id": 22
+  },
+  {
+    "question": "What is a pipe in Angular?",
+    "options": {
+      "a": "A class that encapsulates a set of related components.",
+      "b": "A function that manages dependencies.",
+      "c": "A class that provides a way to transform data in templates.",
+      "d": "A file that contains CSS styles."
+    },
+    "correctAnswer": "c",
+    "id": 23
+  },
+  {
+    "question": "What is the purpose of Angular's 'NgZone' service?",
+    "options": {
+      "a": "To provide internationalization support.",
+      "b": "To manage and detect changes in asynchronous operations.",
+      "c": "To handle HTTP requests.",
+      "d": "To compile TypeScript into JavaScript."
+    },
+    "correctAnswer": "b",
+    "id": 24
+  },
+  {
+    "question": "Which Angular lifecycle hook is called after every change detection run?",
+    "options": {
+      "a": "ngOnChanges",
+      "b": "ngAfterViewChecked",
+      "c": "ngDoCheck",
+      "d": "ngAfterContentChecked"
+    },
+    "correctAnswer": "b",
+    "id": 25
+  },
+  {
+    "question": "What is the purpose of Angular's 'ng-template' directive?",
+    "options": {
+      "a": "To conditionally include a template based on the value of an expression.",
+      "b": "To create reusable components.",
+      "c": "To iterate over a collection.",
+      "d": "To set up two-way data binding."
+    },
+    "correctAnswer": "a",
+    "id": 26
+  },
+  {
+    "question": "Which Angular service can be used to handle HTTP requests?",
+    "options": {
+      "a": "Router",
+      "b": "NgZone",
+      "c": "HttpClient",
+      "d": "FormsModule"
+    },
+    "correctAnswer": "c",
+    "id": 27
+  },
+  {
+    "question": "What is the purpose of Angular's 'Renderer2' service?",
+    "options": {
+      "a": "To provide internationalization support.",
+      "b": "To manage and detect changes in asynchronous operations.",
+      "c": "To handle HTTP requests.",
+      "d": "To manipulate the DOM elements in a platform-independent way."
+    },
+    "correctAnswer": "d",
+    "id": 28
+  },
+  {
+    "question": "What does the Angular CLI command 'ng serve' do?",
+    "options": {
+      "a": "Creates a new Angular project.",
+      "b": "Builds the project and outputs static files.",
+      "c": "Serves the project locally for development.",
+      "d": "Runs the unit tests."
+    },
+    "correctAnswer": "c",
+    "id": 29
+  },
+  {
+    "question": "What is Angular's 'HttpInterceptor' used for?",
+    "options": {
+      "a": "To intercept and handle HTTP requests and responses.",
+      "b": "To manage and detect changes in asynchronous operations.",
+      "c": "To compile TypeScript code into JavaScript.",
+      "d": "To handle form validation."
+    },
+    "correctAnswer": "a",
+    "id": 30
   }
 ]

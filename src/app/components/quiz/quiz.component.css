@@ -44,7 +44,7 @@
     padding: 0px;
     border-radius: 0 9px 9px 0;
     transition: all 0.1s ease;
-    background-color: teal;
+    background-color: lightseagreen;
   }
   
   .topic-selector {
@@ -75,7 +75,7 @@
   .next {
     margin-top: 10px;
     padding: 6px 8px;
-    background-color: teal;
+    background-color: lightseagreen;
     color: #fff;
     border: none;
     border-radius: 0.5em;
@@ -106,7 +106,8 @@
   }
   
   Button  {
-    background-color: rgb(81, 89, 80);
+    /* background-color: rgb(81, 89, 80); */
+    background-color: #3889D0;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -120,7 +121,8 @@
   }
   
 Button:hover {
-    background-color: rgb(61, 69, 60);
+    /* background-color: rgb(61, 69, 60); */
+    opacity: 0.80;
   }
   
   h1,
