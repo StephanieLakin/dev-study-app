@@ -11,14 +11,14 @@ export class QuestionsComponent implements OnInit {
   @Output() quizFinished = new EventEmitter<void>();
 
   topics: string[] = [
-    // 'ASP .NET MVC Quiz',
+     'ASP .NET MVC Quiz',
     'Angular Quiz',
     // '.Net Core Web API Quiz',
-    // 'TypeScript Quiz',
+   'TypeScript Quiz',
     // 'CSS Quiz',
     // 'Javascript Quiz',
     'C# Quiz',
-    // 'SQL Quiz',
+    'SQL Quiz',
   ];
   selectedTopic!: string;
   questions: any[] = [];
@@ -31,7 +31,7 @@ export class QuestionsComponent implements OnInit {
   constructor(private flashcardService: FlashcardService, private router: Router) {}
 
   ngOnInit() {
-    //prompt user to select a topic?
+    
   }
   onTopicChange(event: Event) {
     const target = event.target as HTMLSelectElement;

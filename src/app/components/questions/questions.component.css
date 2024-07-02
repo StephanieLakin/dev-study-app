@@ -32,7 +32,7 @@
  button:hover {
   /* background-color: rgb(61, 69, 60); */
   opacity: 0.80;
-  #1E8BEA
+ background-color:#1E8BEA;
 }
   
   .prev, .refresh {
@@ -77,6 +77,7 @@
 h2, h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 p, input {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;

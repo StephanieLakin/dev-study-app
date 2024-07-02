@@ -1,0 +1,332 @@
+[
+  {
+    "question": "What does MVC stand for in ASP.NET MVC?",
+    "options": {
+      "a": "Model View Controller",
+      "b": "Model View Component",
+      "c": "Module View Controller",
+      "d": "Module View Component"
+    },
+    "correctAnswer": "a",
+    "id": 1
+  },
+  {
+    "question": "Which component in MVC handles the user interaction logic?",
+    "options": {
+      "a": "Model",
+      "b": "View",
+      "c": "Controller",
+      "d": "Router"
+    },
+    "correctAnswer": "c",
+    "id": 2
+  },
+  {
+    "question": "What is the purpose of the Model in MVC?",
+    "options": {
+      "a": "To handle the business logic",
+      "b": "To handle the user interface",
+      "c": "To handle the data and database logic",
+      "d": "To route the requests"
+    },
+    "correctAnswer": "c",
+    "id": 3
+  },
+  {
+    "question": "Which method is used to redirect to another action in ASP.NET MVC?",
+    "options": {
+      "a": "Redirect()",
+      "b": "Transfer()",
+      "c": "Forward()",
+      "d": "Navigate()"
+    },
+    "correctAnswer": "a",
+    "id": 4
+  },
+  {
+    "question": "Which view engine is the default in ASP.NET MVC?",
+    "options": {
+      "a": "Razor",
+      "b": "WebForms",
+      "c": "Spark",
+      "d": "NHaml"
+    },
+    "correctAnswer": "a",
+    "id": 5
+  },
+  {
+    "question": "What is the purpose of the View in MVC?",
+    "options": {
+      "a": "To handle the data and database logic",
+      "b": "To handle the business logic",
+      "c": "To handle the user interface",
+      "d": "To route the requests"
+    },
+    "correctAnswer": "c",
+    "id": 6
+  },
+  {
+    "question": "Which of the following is used to pass data from Controller to View?",
+    "options": {
+      "a": "ViewData",
+      "b": "ViewBag",
+      "c": "TempData",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "id": 7
+  },
+  {
+    "question": "What is the default route pattern in ASP.NET MVC?",
+    "options": {
+      "a": "{controller}/{action}/{id}",
+      "b": "{action}/{controller}/{id}",
+      "c": "{controller}/{id}/{action}",
+      "d": "{id}/{controller}/{action}"
+    },
+    "correctAnswer": "a",
+    "id": 8
+  },
+  {
+    "question": "How do you handle errors in ASP.NET MVC?",
+    "options": {
+      "a": "Using try-catch blocks",
+      "b": "Using custom error pages",
+      "c": "Using HandleError attribute",
+      "d": "All of the above"
+    },
+    "correctAnswer": "d",
+    "id": 9
+  },
+  {
+    "question": "What is Razor in ASP.NET MVC?",
+    "options": {
+      "a": "A programming language",
+      "b": "A markup syntax",
+      "c": "A routing engine",
+      "d": "A database engine"
+    },
+    "correctAnswer": "b",
+    "id": 10
+  },
+  {
+    "question": "What is the purpose of the Controller in MVC?",
+    "options": {
+      "a": "To handle the data and database logic",
+      "b": "To handle the business logic",
+      "c": "To handle the user interface",
+      "d": "To route the requests"
+    },
+    "correctAnswer": "b",
+    "id": 11
+  },
+  {
+    "question": "Which action result returns a view from a controller action?",
+    "options": {
+      "a": "JsonResult",
+      "b": "ViewResult",
+      "c": "FileResult",
+      "d": "ContentResult"
+    },
+    "correctAnswer": "b",
+    "id": 12
+  },
+  {
+    "question": "Which HTML helper is used to create a form in ASP.NET MVC?",
+    "options": {
+      "a": "Html.Form()",
+      "b": "Html.BeginForm()",
+      "c": "Html.CreateForm()",
+      "d": "Html.GenerateForm()"
+    },
+    "correctAnswer": "b",
+    "id": 13
+  },
+  {
+    "question": "Which attribute is used for input validation in ASP.NET MVC?",
+    "options": {
+      "a": "ValidateInput",
+      "b": "InputValidation",
+      "c": "ValidateData",
+      "d": "ValidateModel"
+    },
+    "correctAnswer": "a",
+    "id": 14
+  },
+  {
+    "question": "What does the @ symbol signify in Razor syntax?",
+    "options": {
+      "a": "The start of a C# code block",
+      "b": "The end of a C# code block",
+      "c": "A comment",
+      "d": "An HTML tag"
+    },
+    "correctAnswer": "a",
+    "id": 15
+  },
+  {
+    "question": "Which method is used to return JSON data from a controller action?",
+    "options": {
+      "a": "ReturnJson()",
+      "b": "JsonResult()",
+      "c": "Json()",
+      "d": "ReturnJsonResult()"
+    },
+    "correctAnswer": "c",
+    "id": 16
+  },
+  {
+    "question": "Which file is used to configure routes in ASP.NET MVC?",
+    "options": {
+      "a": "RouteConfig.cs",
+      "b": "Web.config",
+      "c": "Global.asax",
+      "d": "Startup.cs"
+    },
+    "correctAnswer": "a",
+    "id": 17
+  },
+  {
+    "question": "What is the purpose of the ViewModel in ASP.NET MVC?",
+    "options": {
+      "a": "To handle the data and database logic",
+      "b": "To handle the business logic",
+      "c": "To handle the user interface logic",
+      "d": "To bind data between the View and Controller"
+    },
+    "correctAnswer": "d",
+    "id": 18
+  },
+  {
+    "question": "Which method is used to release resources in a Controller?",
+    "options": {
+      "a": "Dispose()",
+      "b": "Finalize()",
+      "c": "Close()",
+      "d": "Shutdown()"
+    },
+    "correctAnswer": "a",
+    "id": 19
+  },
+  {
+    "question": "How do you secure a controller in ASP.NET MVC?",
+    "options": {
+      "a": "Using the Authorize attribute",
+      "b": "Using the Secure attribute",
+      "c": "Using the Authenticate attribute",
+      "d": "Using the Validate attribute"
+    },
+    "correctAnswer": "a",
+    "id": 20
+  },
+  {
+    "question": "Which method is used to retrieve the value of a query string parameter in a Controller?",
+    "options": {
+      "a": "Request.QueryString()",
+      "b": "Request.Params()",
+      "c": "Request.Values()",
+      "d": "Request.Strings()"
+    },
+    "correctAnswer": "b",
+    "id": 21
+  },
+  {
+    "question": "Which method is used to map a URL to a controller action?",
+    "options": {
+      "a": "MapRoute()",
+      "b": "Route()",
+      "c": "MapUrl()",
+      "d": "UrlRoute()"
+    },
+    "correctAnswer": "a",
+    "id": 22
+  },
+  {
+    "question": "What is the use of TempData in ASP.NET MVC?",
+    "options": {
+      "a": "To pass data between controller and view",
+      "b": "To pass data between two successive requests",
+      "c": "To store data permanently",
+      "d": "To handle error messages"
+    },
+    "correctAnswer": "b",
+    "id": 23
+  },
+  {
+    "question": "What does the ModelState represent in ASP.NET MVC?",
+    "options": {
+      "a": "The current state of the Model",
+      "b": "The validation state of the Model",
+      "c": "The current state of the View",
+      "d": "The current state of the Controller"
+    },
+    "correctAnswer": "b",
+    "id": 24
+  },
+  {
+    "question": "Which of the following is used to prevent Cross-Site Request Forgery (CSRF) in ASP.NET MVC?",
+    "options": {
+      "a": "AntiForgeryToken attribute",
+      "b": "ValidateAntiForgeryToken attribute",
+      "c": "Authorize attribute",
+      "d": "ValidateInput attribute"
+    },
+    "correctAnswer": "b",
+    "id": 25
+  },
+  {
+    "question": "What is the purpose of the ViewBag in ASP.NET MVC?",
+    "options": {
+      "a": "To store temporary data between controller and view",
+      "b": "To store data permanently",
+      "c": "To handle data validation",
+      "d": "To manage session state"
+    },
+    "correctAnswer": "a",
+    "id": 26
+  },
+  {
+    "question": "Which method is used to return a file from a controller action?",
+    "options": {
+      "a": "ReturnFile()",
+      "b": "File()",
+      "c": "ReturnFileResult()",
+      "d": "FileResult()"
+    },
+    "correctAnswer": "b",
+    "id": 27
+  },
+  {
+    "question": "How do you define a route with optional parameters in ASP.NET MVC?",
+    "options": {
+      "a": "{controller}/{action}/{id?}",
+      "b": "{controller}/{action}/{id}",
+      "c": "{controller}/{action}/{id*}",
+      "d": "{controller}/{action}/{id+}"
+    },
+    "correctAnswer": "a",
+    "id": 28
+  },
+  {
+    "question": "What is the purpose of the HttpGet attribute in ASP.NET MVC?",
+    "options": {
+      "a": "To specify that an action supports the HTTP GET method",
+      "b": "To specify that an action supports the HTTP POST method",
+      "c": "To specify that an action supports the HTTP PUT method",
+      "d": "To specify that an action supports the HTTP DELETE method"
+    },
+    "correctAnswer": "a",
+    "id": 29
+  },
+  {
+    "question": "Which attribute is used to bind form data to a model in ASP.NET MVC?",
+    "options": {
+      "a": "Bind",
+      "b": "FormBind",
+      "c": "DataBind",
+      "d": "ModelBind"
+    },
+    "correctAnswer": "a",
+    "id": 30
+  }
+]

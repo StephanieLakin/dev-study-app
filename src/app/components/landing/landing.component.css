@@ -35,7 +35,8 @@
 }
 
 .choooseButton {
-  background-color: rgb(81, 89, 80);
+  /* background-color: rgb(81, 89, 80); */
+  background-color: #3889d0;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -50,7 +51,9 @@
 }
 
 .choooseButton:hover {
-  background-color: rgb(61, 69, 60); /* Darker color on hover */
+  /* background-color: rgb(61, 69, 60);  */
+  opacity: 0.80;
+  background-color:#1E8BEA;
 }
 
 .paragraph {

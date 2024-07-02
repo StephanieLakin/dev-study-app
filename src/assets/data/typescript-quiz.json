@@ -1,0 +1,322 @@
+[
+    {
+      "question": "What is TypeScript?",
+      "options": {
+        "a": "A superset of JavaScript that adds static typing",
+        "b": "A type of database query language",
+        "c": "A CSS framework",
+        "d": "A backend programming language"
+      },
+      "correctAnswer": "a",
+      "id": 1
+    },
+    {
+      "question": "What is the main benefit of using TypeScript over JavaScript?",
+      "options": {
+        "a": "Faster execution time",
+        "b": "Static typing and type checking",
+        "c": "Built-in database connectivity",
+        "d": "Simplified syntax"
+      },
+      "correctAnswer": "b",
+      "id": 2
+    },
+    {
+      "question": "Which of the following is a valid TypeScript data type?",
+      "options": {
+        "a": "Number",
+        "b": "Text",
+        "c": "Character",
+        "d": "Symbolic"
+      },
+      "correctAnswer": "a",
+      "id": 3
+    },
+    {
+      "question": "How do you define an interface in TypeScript?",
+      "options": {
+        "a": "interface MyInterface { }",
+        "b": "type MyInterface { }",
+        "c": "class MyInterface { }",
+        "d": "struct MyInterface { }"
+      },
+      "correctAnswer": "a",
+      "id": 4
+    },
+    {
+      "question": "What is the purpose of the readonly modifier in TypeScript?",
+      "options": {
+        "a": "To create a variable that can be changed only once",
+        "b": "To create a variable that cannot be changed after initialization",
+        "c": "To create a variable that is accessible only within its class",
+        "d": "To create a variable that is accessible from any scope"
+      },
+      "correctAnswer": "b",
+      "id": 5
+    },
+    {
+      "question": "Which of the following TypeScript keywords is used to declare a constant variable?",
+      "options": {
+        "a": "let",
+        "b": "var",
+        "c": "const",
+        "d": "static"
+      },
+      "correctAnswer": "c",
+      "id": 6
+    },
+    {
+      "question": "What does the ? symbol indicate in a TypeScript property declaration?",
+      "options": {
+        "a": "The property is mandatory",
+        "b": "The property is optional",
+        "c": "The property is static",
+        "d": "The property is private"
+      },
+      "correctAnswer": "b",
+      "id": 7
+    },
+    {
+      "question": "How do you define a function in TypeScript that returns a number?",
+      "options": {
+        "a": "function myFunction(): number { }",
+        "b": "function myFunction: number { }",
+        "c": "number function myFunction() { }",
+        "d": "number: function myFunction() { }"
+      },
+      "correctAnswer": "a",
+      "id": 8
+    },
+    {
+      "question": "Which of the following is used to extend a class in TypeScript?",
+      "options": {
+        "a": "implements",
+        "b": "inherits",
+        "c": "extends",
+        "d": "uses"
+      },
+      "correctAnswer": "c",
+      "id": 9
+    },
+    {
+      "question": "How do you specify the type of an array in TypeScript?",
+      "options": {
+        "a": "let arr: number[]",
+        "b": "let arr: [number]",
+        "c": "let arr: Array",
+        "d": "let arr: [Array<number>]"
+      },
+      "correctAnswer": "a",
+      "id": 10
+    },
+    {
+      "question": "What is a tuple in TypeScript?",
+      "options": {
+        "a": "A data structure that holds two values of different types",
+        "b": "A data structure that holds a fixed number of elements of specified types",
+        "c": "A function that returns an array",
+        "d": "A class that cannot be instantiated"
+      },
+      "correctAnswer": "b",
+      "id": 11
+    },
+    {
+      "question": "How do you handle exceptions in TypeScript?",
+      "options": {
+        "a": "try...catch...finally",
+        "b": "catch...try...finally",
+        "c": "try...except...finally",
+        "d": "except...try...finally"
+      },
+      "correctAnswer": "a",
+      "id": 12
+    },
+    {
+      "question": "What does the never type represent in TypeScript?",
+      "options": {
+        "a": "A function that never returns",
+        "b": "A variable that can hold any value",
+        "c": "A function that returns a boolean",
+        "d": "A variable that can hold null or undefined"
+      },
+      "correctAnswer": "a",
+      "id": 13
+    },
+    {
+      "question": "What is the purpose of the enum keyword in TypeScript?",
+      "options": {
+        "a": "To define a set of named constants",
+        "b": "To create a new class",
+        "c": "To declare an array",
+        "d": "To define a function"
+      },
+      "correctAnswer": "a",
+      "id": 14
+    },
+    {
+      "question": "How do you specify a type alias in TypeScript?",
+      "options": {
+        "a": "type Alias = existingType",
+        "b": "alias Alias = existingType",
+        "c": "typedef Alias existingType",
+        "d": "alias existingType as Alias"
+      },
+      "correctAnswer": "a",
+      "id": 15
+    },
+    {
+      "question": "Which keyword is used to declare a module in TypeScript?",
+      "options": {
+        "a": "module",
+        "b": "namespace",
+        "c": "package",
+        "d": "bundle"
+      },
+      "correctAnswer": "b",
+      "id": 16
+    },
+    {
+      "question": "How do you ensure a variable can hold multiple types in TypeScript?",
+      "options": {
+        "a": "let variable: type1 | type2",
+        "b": "let variable = type1, type2",
+        "c": "let variable: type1 & type2",
+        "d": "let variable: type1, type2"
+      },
+      "correctAnswer": "a",
+      "id": 17
+    },
+    {
+      "question": "What is the default access modifier for properties and methods in TypeScript classes?",
+      "options": {
+        "a": "public",
+        "b": "private",
+        "c": "protected",
+        "d": "internal"
+      },
+      "correctAnswer": "a",
+      "id": 18
+    },
+    {
+      "question": "What does the abstract keyword indicate in TypeScript?",
+      "options": {
+        "a": "The class cannot be instantiated",
+        "b": "The class can only have static methods",
+        "c": "The class has only private members",
+        "d": "The class can only have public members"
+      },
+      "correctAnswer": "a",
+      "id": 19
+    },
+    {
+      "question": "How do you create a decorator in TypeScript?",
+      "options": {
+        "a": "function myDecorator(target: any) { }",
+        "b": "decorator myDecorator(target: any) { }",
+        "c": "@decorator myDecorator(target: any) { }",
+        "d": "decorator: myDecorator(target: any) { }"
+      },
+      "correctAnswer": "a",
+      "id": 20
+    },
+    {
+      "question": "What is the purpose of the private keyword in TypeScript?",
+      "options": {
+        "a": "To restrict access to a member within its containing class",
+        "b": "To allow access to a member from anywhere",
+        "c": "To define a member that cannot be modified",
+        "d": "To declare a static member"
+      },
+      "correctAnswer": "a",
+      "id": 21
+    },
+    {
+      "question": "How do you import a specific member from a module in TypeScript?",
+      "options": {
+        "a": "import { memberName } from 'moduleName'",
+        "b": "import moduleName.memberName",
+        "c": "require('moduleName').memberName",
+        "d": "import moduleName.memberName as memberName"
+      },
+      "correctAnswer": "a",
+      "id": 22
+    },
+    {
+      "question": "What is the purpose of Promise in TypeScript?",
+      "options": {
+        "a": "To handle asynchronous operations",
+        "b": "To declare constant values",
+        "c": "To create a new type",
+        "d": "To enforce type safety"
+      },
+      "correctAnswer": "a",
+      "id": 23
+    },
+    {
+      "question": "How do you declare a variable that can hold a value of a specific type or null in TypeScript?",
+      "options": {
+        "a": "let variable: type | null",
+        "b": "let variable: type & null",
+        "c": "let variable: type, null",
+        "d": "let variable = type | null"
+      },
+      "correctAnswer": "a",
+      "id": 24
+    },
+    {
+      "question": "What is the purpose of the extends keyword in TypeScript?",
+      "options": {
+        "a": "To create a new class based on an existing class",
+        "b": "To declare a constant variable",
+        "c": "To define an interface",
+        "d": "To import a module"
+      },
+      "correctAnswer": "a",
+      "id": 25
+    },
+    {
+      "question": "How do you define a function with default parameters in TypeScript?",
+      "options": {
+        "a": "function myFunction(param: type = defaultValue) { }",
+        "b": "function myFunction(param = defaultValue: type) { }",
+        "c": "function myFunction(param: defaultValue = type) { }",
+        "d": "function myFunction(defaultValue: type = param) { }"
+      },
+      "correctAnswer": "a",
+      "id": 26
+    },
+    {
+      "question": "What does the static keyword indicate in TypeScript?",
+      "options": {
+        "a": "The member is associated with the class itself rather than with instances of the class",
+        "b": "The member is private and cannot be accessed from outside the class",
+        "c": "The member is read-only and cannot be modified",
+        "d": "The member is protected and can only be accessed by derived classes"
+      },
+      "correctAnswer": "a",
+      "id": 27
+    },
+    {
+      "question": "What is the purpose of the super keyword in TypeScript?",
+      "options": {
+        "a": "To call the constructor of the parent class",
+        "b": "To declare a constant value",
+        "c": "To define a static method",
+        "d": "To import a module"
+      },
+      "correctAnswer": "a",
+      "id": 28
+    },
+    {
+      "question": "How do you specify the return type of a function in TypeScript?",
+      "options": {
+        "a": "function myFunction(): returnType { }",
+        "b": "function myFunction: returnType { }",
+        "c": "returnType function myFunction() { }",
+        "d": "function myFunction() { returnType }"
+      },
+      "correctAnswer": "a",
+      "id": 29
+    }
+  ]
+  

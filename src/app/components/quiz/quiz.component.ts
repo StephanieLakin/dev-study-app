@@ -12,7 +12,6 @@ import { TimerComponent } from '../timer/timer.component';
 })
 export class QuizComponent {
   @ViewChild(TimerComponent) timerComponent!: TimerComponent;
-
   isQuizToBeStarted: boolean = false;
   selectedTopic: string = 'Angular Quiz';
   topics: string[] = [
@@ -26,12 +25,22 @@ export class QuizComponent {
     'Javascript Quiz',
     'SQL Quiz',
     'Angular Quiz',
+    'Typescript Quiz'
   ];
 
   constructor(private router: Router) {}
 
+  // onStart() {
+  //   this.isQuizToBeStarted = !this.isQuizToBeStarted;
+  // }
+
   onStart() {
-    this.isQuizToBeStarted = !this.isQuizToBeStarted;
+    this.isQuizToBeStarted = true;
+    setTimeout(() => {
+      if (this.timerComponent) {
+        this.timerComponent.startTimer();
+      }
+    }, 0);
   }
 
   onRefresh() {
@@ -52,6 +61,7 @@ export class QuizComponent {
     const target = event.target as HTMLSelectElement;
     this.selectedTopic = target.value;
     this.onRefresh();
+    this.onStart();
   }
 
   onQuizFinished() {

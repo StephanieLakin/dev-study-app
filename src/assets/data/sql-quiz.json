@@ -1,0 +1,279 @@
+[
+    {
+      "question": "What is SQL?",
+      "options": {
+        "a": "A programming language.",
+        "b": "A database management system.",
+        "c": "A query language for databases.",
+        "d": "A markup language."
+      },
+      "correctAnswer": "c",
+      "id": 1
+    },
+    {
+      "question": "What does SQL stand for?",
+      "options": {
+        "a": "Structured Query Language",
+        "b": "Structured Question Language",
+        "c": "Simple Query Language",
+        "d": "Simple Question Language"
+      },
+      "correctAnswer": "a",
+      "id": 2
+    },
+    {
+      "question": "Which SQL statement is used to retrieve data from a database?",
+      "options": {
+        "a": "GET",
+        "b": "SELECT",
+        "c": "OPEN",
+        "d": "FETCH"
+      },
+      "correctAnswer": "b",
+      "id": 3
+    },
+    {
+      "question": "Which SQL clause is used to filter records?",
+      "options": {
+        "a": "WHERE",
+        "b": "ORDER BY",
+        "c": "GROUP BY",
+        "d": "HAVING"
+      },
+      "correctAnswer": "a",
+      "id": 4
+    },
+    {
+      "question": "What is the purpose of the SQL INSERT statement?",
+      "options": {
+        "a": "To modify existing records.",
+        "b": "To remove records.",
+        "c": "To add new records.",
+        "d": "To retrieve records."
+      },
+      "correctAnswer": "c",
+      "id": 5
+    },
+    {
+      "question": "Which SQL function is used to return the number of records in a result set?",
+      "options": {
+        "a": "SUM()",
+        "b": "COUNT()",
+        "c": "MAX()",
+        "d": "TOTAL()"
+      },
+      "correctAnswer": "b",
+      "id": 6
+    },
+    {
+      "question": "What is the purpose of the SQL UPDATE statement?",
+      "options": {
+        "a": "To add new records.",
+        "b": "To remove records.",
+        "c": "To modify existing records.",
+        "d": "To retrieve records."
+      },
+      "correctAnswer": "c",
+      "id": 7
+    },
+    {
+      "question": "Which SQL clause is used to sort the result-set?",
+      "options": {
+        "a": "WHERE",
+        "b": "ORDER BY",
+        "c": "GROUP BY",
+        "d": "HAVING"
+      },
+      "correctAnswer": "b",
+      "id": 8
+    },
+    {
+      "question": "What is a primary key in SQL?",
+      "options": {
+        "a": "A key that uniquely identifies a record in a table.",
+        "b": "A key that is used to join two tables.",
+        "c": "A key that is used to sort data.",
+        "d": "A key that is used to filter data."
+      },
+      "correctAnswer": "a",
+      "id": 9
+    },
+    {
+      "question": "Which SQL keyword is used to retrieve unique records?",
+      "options": {
+        "a": "UNIQUE",
+        "b": "DISTINCT",
+        "c": "LIMIT",
+        "d": "TOP"
+      },
+      "correctAnswer": "b",
+      "id": 10
+    },
+    {
+      "question": "Which SQL function is used to get the maximum value of a column?",
+      "options": {
+        "a": "MAX()",
+        "b": "MIN()",
+        "c": "GREATEST()",
+        "d": "HIGHEST()"
+      },
+      "correctAnswer": "a",
+      "id": 11
+    },
+    {
+      "question": "What is a foreign key in SQL?",
+      "options": {
+        "a": "A key used to sort data.",
+        "b": "A key used to filter data.",
+        "c": "A key used to join tables.",
+        "d": "A key that uniquely identifies a record in a table."
+      },
+      "correctAnswer": "c",
+      "id": 12
+    },
+    {
+      "question": "Which SQL statement is used to delete records from a database?",
+      "options": {
+        "a": "REMOVE",
+        "b": "DELETE",
+        "c": "DROP",
+        "d": "CLEAR"
+      },
+      "correctAnswer": "b",
+      "id": 13
+    },
+    {
+      "question": "Which SQL function is used to get the minimum value of a column?",
+      "options": {
+        "a": "MIN()",
+        "b": "LOW()",
+        "c": "LEAST()",
+        "d": "SMALL()"
+      },
+      "correctAnswer": "a",
+      "id": 14
+    },
+    {
+      "question": "What is the purpose of the SQL SELECT INTO statement?",
+      "options": {
+        "a": "To copy data from one table to another.",
+        "b": "To remove records from a table.",
+        "c": "To add new records to a table.",
+        "d": "To modify existing records in a table."
+      },
+      "correctAnswer": "a",
+      "id": 15
+    },
+    {
+      "question": "Which SQL clause is used to group records that have the same values?",
+      "options": {
+        "a": "WHERE",
+        "b": "ORDER BY",
+        "c": "GROUP BY",
+        "d": "HAVING"
+      },
+      "correctAnswer": "c",
+      "id": 16
+    },
+    {
+      "question": "Which SQL keyword is used to retrieve records that meet a specified condition?",
+      "options": {
+        "a": "WHERE",
+        "b": "ORDER BY",
+        "c": "GROUP BY",
+        "d": "HAVING"
+      },
+      "correctAnswer": "a",
+      "id": 17
+    },
+    {
+      "question": "Which SQL statement is used to remove a table from a database?",
+      "options": {
+        "a": "DELETE",
+        "b": "REMOVE",
+        "c": "DROP",
+        "d": "CLEAR"
+      },
+      "correctAnswer": "c",
+      "id": 18
+    },
+    {
+      "question": "What does the SQL JOIN clause do?",
+      "options": {
+        "a": "It combines rows from two or more tables based on a related column.",
+        "b": "It sorts the result set.",
+        "c": "It filters the result set.",
+        "d": "It groups records that have the same values."
+      },
+      "correctAnswer": "a",
+      "id": 19
+    },
+    {
+      "question": "Which SQL function is used to return the average value of a numeric column?",
+      "options": {
+        "a": "SUM()",
+        "b": "AVG()",
+        "c": "COUNT()",
+        "d": "TOTAL()"
+      },
+      "correctAnswer": "b",
+      "id": 20
+    },
+    {
+      "question": "What is a composite key in SQL?",
+      "options": {
+        "a": "A key that uniquely identifies a record in a table.",
+        "b": "A key that consists of two or more columns.",
+        "c": "A key that is used to join tables.",
+        "d": "A key that is used to filter data."
+      },
+      "correctAnswer": "b",
+      "id": 21
+    },
+    {
+      "question": "Which SQL statement is used to create a new table in a database?",
+      "options": {
+        "a": "ADD TABLE",
+        "b": "CREATE TABLE",
+        "c": "NEW TABLE",
+        "d": "INSERT TABLE"
+      },
+      "correctAnswer": "b",
+      "id": 22
+    },
+    {
+      "question": "What is the purpose of the SQL ALTER TABLE statement?",
+      "options": {
+        "a": "To add, delete, or modify columns in an existing table.",
+        "b": "To remove a table from a database.",
+        "c": "To create a new table in a database.",
+        "d": "To retrieve data from a table."
+      },
+      "correctAnswer": "a",
+      "id": 23
+    },
+    {
+      "question": "Which SQL keyword is used to add a condition for aggregate functions?",
+      "options": {
+        "a": "WHERE",
+        "b": "ORDER BY",
+        "c": "GROUP BY",
+        "d": "HAVING"
+      },
+      "correctAnswer": "d",
+      "id": 24
+    },
+    {
+      "question": "What is the purpose of the SQL TRUNCATE TABLE statement?",
+      "options": {
+        "a": "To delete a table from a database.",
+        "b": "To remove all records from a table.",
+        "c": "To add a new column to a table.",
+        "d": "To modify existing records in a table."
+      },
+      "correctAnswer": "b",
+      "id": 25
+    }
+]
+    
+  

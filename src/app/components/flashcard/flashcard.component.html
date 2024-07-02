@@ -5,10 +5,10 @@
       alt="eskie"
       class="image"
     />
-    <h1 class="title"><a (click)="home()">YukiDev</a></h1>
+    <h1 class="title" title="Home"><a (click)="home()">YukiDev</a></h1>
   </div>
   <div class="flashcard-container">
-    <button class="toggleButton" (click)="toggleMode()">Toggle Mode</button>
+    <button class="toggleButton" title="Light / Dark Mode" (click)="toggleMode()">Toggle Mode</button>
     <div class="topic-selector">
       <label for="topic">Select Topic: </label>
       <select id="topic" (change)="selectTopic($event)">
@@ -40,6 +40,6 @@
       </button>
       <button class="selectionBtn" (click)="refreshList()">Refresh</button>
     </div>
-    
+
   </div>
 </div>

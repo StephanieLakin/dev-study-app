@@ -9,6 +9,7 @@ import { Flashcard } from '../../models/flashcard.model';
   styleUrls: ['./flashcard.component.css'],
 })
 export class FlashcardComponent implements OnInit {
+   // List of topics for the flashcard dropdown
   topics: string[] = [
     'OOP',
     'ASP .NET MVC',
@@ -20,21 +21,24 @@ export class FlashcardComponent implements OnInit {
     'Javascript',
     'SQL',
   ];
-  flashcards: Flashcard[] = [];
-  currentFlashcard!: Flashcard;
-  currentIndex: number = 0;
+  
+  flashcards: Flashcard[] = []; // Array to hold the flashcards
+  currentFlashcard!: Flashcard;  // Variable to hold the current flashcard being displayed
+  currentIndex: number = 0;  // Index of the current flashcard in the array
   selectedTopic: string = 'OOP';
   colorMode = 'lightMode';
 
-  constructor(
+  constructor(  // inject the flashcard service and router
     private flashcardService: FlashcardService,
     private router: Router
   ) {}
 
+  // Lifecycle hook that gets called after the component's view has been initialized
   ngOnInit(): void {
     this.updateFlashcards();
   }
   
+  // Method to update the flashcards based on the selected topic
   updateFlashcards(): void {
     this.flashcardService.getFlashcardsByTopic(this.selectedTopic).subscribe({
       next: (data: Flashcard[]) => {
@@ -54,21 +58,28 @@ export class FlashcardComponent implements OnInit {
     });
   }
 
+  // Handle topic selection from the dropdown
   selectTopic(event: Event): void {
-    const target = event.target as HTMLSelectElement;
-    this.selectedTopic = target.value;
-    this.updateFlashcards();
+    const target = event.target as HTMLSelectElement; // this type assertion is necessary to access the value property of the select element without TypeScript raising an error.
+    this.selectedTopic = target.value; 
+    this.updateFlashcards(); 
   }
 
-  nextFlashcard(): void {
+   // Refresh the flashcard list and reset to the first flashcard
+   nextFlashcard(): void {
+    // Check if there are any flashcards available and the current index is not the last index
     if (this.flashcards.length && this.currentIndex < this.flashcards.length - 1) {
-      this.currentIndex++;
-      this.currentFlashcard = this.flashcards[this.currentIndex];
+        // Increment the current index to move to the next flashcard
+        this.currentIndex++;
+        // Update the current flashcard to the flashcard at the new current index
+        this.currentFlashcard = this.flashcards[this.currentIndex];
     } else {
-      console.warn("No more flashcards available.");
+        // If no more flashcards are available, log a warning message
+        console.warn("No more flashcards available.");
     }
-  }
+}
 
+ // Refresh the flashcard list and reset to the first flashcard
   refreshList(): void {
     if (this.flashcards.length) {
       this.currentIndex = 0;
@@ -78,6 +89,7 @@ export class FlashcardComponent implements OnInit {
     }
   }
 
+    // Display the previous flashcard
   previousFlashcard(): void {
     if (this.currentIndex > 0) {
       this.currentIndex--;
@@ -87,6 +99,7 @@ export class FlashcardComponent implements OnInit {
     }
   }
 
+ //Toggle between light and dark modes
   toggleMode() {
     this.colorMode = this.colorMode === 'lightMode' ? 'darkMode' : 'lightMode';
   }

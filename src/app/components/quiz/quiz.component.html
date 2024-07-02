@@ -1,11 +1,11 @@
 <div class="container">
   <div class="image-wrapper">
     <img src="assets/images/eskieDev.png" alt="eskie" class="image" />
-    <h1 class="title"><a (click)="home()">YukiDev</a></h1>
+    <h1 class="title" title="Home"><a (click)="home()">YukiDev</a></h1>
   </div>
   <div class="quiz-container">
     <div class="header">
-      <h3>Quiz App</h3>
+      <h1>Quiz App</h1>
       <timer *ngIf="isQuizToBeStarted"></timer>
     </div>
     <div class="quiz-questions" *ngIf="isQuizToBeStarted; else showThis">
